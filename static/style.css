@@ -164,6 +164,9 @@ footer {
 	}
 
 @media(max-width: 750px) {
+	.wrap {
+		padding: 15px;
+	}
 	.header {
 		display: block;
 		margin: 0;
@@ -184,5 +187,8 @@ footer {
 	.sidebar {
 		text-align: center;
 		display: none;
+	}
+	#items .item {
+		padding: 15px 15px;
 	}
 }
