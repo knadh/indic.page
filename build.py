@@ -50,7 +50,7 @@ def get_languages(data):
 
 
 def filter_by_category(category, data):
-	return sorted([d for d in data if category in d["categories"]], key=lambda k: k["name"])
+	return sorted([d for d in data if category in d["categories"]], key=lambda k: k["name"].lower())
 
 
 def load_template(file):
@@ -75,7 +75,7 @@ def render_page(category, data, tpl, file):
 		list=items)
 
 	with open(file, "w") as f:
-		f.write(html)
+		f.write(html.encode("utf8"))
 
 
 def render_all(data, tpl, out_dir):
