@@ -6,7 +6,7 @@
 
 All resources are listed in the [data.yml](data.yml) file. To add a new resource or change something, submit a PR with a patch to it. The website will be updated automatically upon merge.
 
-Tag open source resources as `FOSS`, mobile applications as `Mobile`, and non-open source resources as `Proprietary`.
+Tag open source resources as `FOSS` and non-open source resources as `Proprietary`.
 
 
 ## Building locally

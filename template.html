@@ -22,7 +22,7 @@
 				<p class="slogan">A directory of Indic (Indian) language computing resources.</p>
 			</div>
 			<div class="intro">
-				<p><input id="search" class="search" type="text" placeholder="Search. eg: phonetic encoder" /></p>
+				<p><input id="search" class="search" type="text" placeholder="Search this page" /></p>
 			</div>
 		</header>
 	</div>
@@ -33,7 +33,7 @@
 		<section class="sidebar" id="sidebar">
 			<ul class="index">
         {% for c in categories %}
-        <li><a href="{{ c | lower }}.html">{{ c }} ({{ categories[c] }})</a></li>
+        <li class="{% if c == category %}selected{% endif %}"><a href="{{ c | lower }}.html">{{ c }} ({{ categories[c] }})</a></li>
         {% endfor %}
 			</ul>
 		</section>
@@ -74,11 +74,10 @@
 							data-languages="{% for v in i.languages %}{{ v | lower}}|{% endfor %}"
 							data-tags="{% for v in i.tags %}{{ v | lower}}|{% endfor %}">
 							<h2 class="title">
-								<a href="{{ i.url }}" class="link">{{ i.name }}</a>
-
 								{% for l in i.languages %}
 									<span class="tag lang">{{ l }}</span>
 								{% endfor %}
+								<a href="{{ i.url }}" class="link">{{ i.name }}</a>
 							</h2>
 
 							<p class="description">{{ i.description }}</p>

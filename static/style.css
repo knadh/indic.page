@@ -95,8 +95,11 @@ footer {
 	flex: 25%;
 }
 	.sidebar li {
-		margin-bottom: 5px;
+		margin-bottom: 10px;
 		font-style: capitalize;
+	}
+	.sidebar li.selected a {
+		border-bottom: 2px solid #5fd38d;
 	}
 .content {
 	flex: 75%;
@@ -125,11 +128,12 @@ footer {
 	#filters label {
 		cursor: pointer;
 		margin-right: 10px;
+		display: inline-block;
 	}
 
 .title .tag {
 	float: right;
-	margin-left: 5px;
+	margin: 0 0 5px 5px;
 }
 .tag {
 	font-size: 12px;
