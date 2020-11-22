@@ -418,3 +418,10 @@
   languages: []
   categories: [Data]
   tags: [Proprietary, Audio]
+
+- name: Kannada Handwriting Recognition
+  description:  Optical Character Recognition of handwritten documents in Kannada
+  url: "https://github.com/SubhrajyotiSen/KannadaHandwritingRecognition"
+  language: [Kannada]
+  categories: [Code]
+  tags: [FOSS]
