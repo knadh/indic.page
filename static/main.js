@@ -1,18 +1,26 @@
-function filterList (values, typ, itemSelector) {
-	// List of attribute selector queries for each value. eg:
-	// #items li[data-language*=malayalam|], #items li[data-language*=kannada|] ...
-	const q = values.map(v => `${itemSelector}[data-${typ}*='${v}|']`);
-
+function filterList(values, typ, itemSelector) {
 	// Hide all items.
 	document.querySelectorAll(itemSelector).forEach(e => {
 		e.style.display = "none";
 	});
 
+	if (values.length === 0) {
+		return;
+	}
+
+	// List of attribute selector queries for each value. eg:
+	// #items li[data-language*=malayalam|], #items li[data-language*=kannada|] ...
+	const q = values.map(v => `${itemSelector}[data-${typ}*='${v}|']`);
+
 	// Show the matched items.
-	console.log(q.join(", "));
 	document.querySelectorAll(q.join(", ")).forEach(e => {
 		e.style.display = "block";
 	});
+}
+
+function onFilterClick(typ, checkboxTyp) {
+	const sel = Array.from(document.querySelectorAll(`.filter-${checkboxTyp}:checked`)).map(e => e.value);
+	filterList(sel, typ, "#items .item");
 }
 
 const reClean = new RegExp(/[^a-z0-9\s]+/g);
@@ -70,7 +78,7 @@ function tokenize(str) {
 	};
 
 
-	// Filter toggle link.
+	// Filter display toggle.
 	document.querySelector("#toggle-filters").onclick = (e) => {
 		e.preventDefault();
 
@@ -78,13 +86,41 @@ function tokenize(str) {
 		f.style.display = f.style.display === "block" ? "none" : "block";
 	};
 
+	// Toggle filter checkbox selections.
+	document.querySelectorAll(".toggle-filters").forEach(el => {
+		el.onclick = (e) => {
+			e.preventDefault();
+
+			const typ = e.target.dataset.target;
+			let selector = "";
+
+			if (typ === "language") {
+				selector = ".filter-language";
+			} else if(typ === "tag") {
+				selector = ".filter-tag";
+			}
+
+			// Value of the data-target attribute is the class to target.
+			document.querySelectorAll(selector).forEach(chk => {
+				chk.checked = e.target.dataset.state === "on" ? false : true;
+			});
+
+			e.target.dataset.state = e.target.dataset.state === "on" ? "off" : "on";
+
+			// Trigger the filter.
+			if (typ === "language") {
+				onFilterClick("languages", "language");
+			} else if (typ === "tag") {
+				onFilterClick("tags", "tag");
+			}
+		};
+	});
+
 
 	// Language filter.
 	document.querySelectorAll(".filter-language").forEach(el => {
 		el.onchange = () => {
-			// Get the list of all selected languages.
-			const langs = Array.from(document.querySelectorAll(".filter-language:checked")).map(e => e.value);
-			filterList(langs, "languages", "#items .item");
+			onFilterClick("languages", "language");
 		};
 	});
 
@@ -92,9 +128,7 @@ function tokenize(str) {
 	// Tags filter.
 	document.querySelectorAll(".filter-tag").forEach(el => {
 		el.onchange = () => {
-			// Get the list of all selected tags.
-			const langs = Array.from(document.querySelectorAll(".filter-tag:checked")).map(e => e.value);
-			filterList(langs, "tags", "#items .item");
+			onFilterClick("tags", "tag");
 		};
 	});
 })();

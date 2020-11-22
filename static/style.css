@@ -131,6 +131,11 @@ footer {
 		display: inline-block;
 	}
 
+.toggle-filters {
+	font-size: 0.875em;
+}
+
+
 .title .tag {
 	float: right;
 	margin: 0 0 5px 5px;

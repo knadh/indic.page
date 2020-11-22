@@ -54,6 +54,8 @@
 									<input type="checkbox" class="filter-language" for="lang-{{ l }}" checked value="{{ l | lower }}" />{{ l }}
 								</label>
 							{% endfor %}
+
+							<a href="#" class="toggle-filters" data-target="language" data-state="on">&larr; Toggle</a>
 						</div>
 					{% endif %}
 
@@ -64,6 +66,8 @@
 									<input type="checkbox" class="filter-tag" for="tag-{{ l }}" checked value="{{ l | lower }}" />{{ l }}
 								</label>
 							{% endfor %}
+
+							<a href="#" class="toggle-filters" data-target="tag" data-state="on">&larr; Toggle</a>
 						</div>
 					{% endif %}
 				</div>
