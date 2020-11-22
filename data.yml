@@ -1,22 +1,148 @@
 ---
 - name: Swathanthra Malayalam Computing (SMC)
-  description: A free software collective engaged in development, localization, standardization and popularization of various FOSS in Malayalam.
+  description: A non-profit free software collective engaged in development, localization, standardization and popularization of various FOSS in Malayalam.
   url: "https://smc.org.in"
   languages: [Malayalam]
   categories: [Organisations]
   tags: [FOSS]
 
+- name: Sanchaya
+  description: A non-profit organisation working on Kannada digitising projects.
+  url: "https://sanchaya.org"
+  languages: [Kannada]
+  categories: [Organisations]
+  tags: [FOSS]
+
+- name: IndicNLP
+  description: Open data platform and computing tools for the regional Indian languages.
+  url: "https://indicnlp.org"
+  languages: []
+  categories: [Organisations]
+  tags: [FOSS]
+
+- name: KaGaPa
+  description: Kannada Ganaka Parishat is an organisation that works on digital Kannada literature projects.
+  url: "https://indicnlp.org"
+  languages: []
+  categories: [Organisations]
+  tags: []
+
+- name: Indian Languages Corpora Initiative (ILCI)
+  description: A project at the School of Sanskrit and Indic Studies, JNU, building parallel corpora for multiple Indian languages.
+  url: "http://sanskrit.jnu.ac.in/ilci/index.jsp"
+  languages: []
+  categories: [Organisations]
+  tags: []
+
+- name: C-DAC
+  description: Center for Advanced Computing (C-DAC), an autonomous institution operating under the Goverment of India institution, undertakes various multi-lingual computing projects and initiatives.
+  url: "https://www.cdac.in/index.aspx?id=mlingual"
+  languages: []
+  categories: [Organisations]
+  tags: []
+
+- name: Linguistic Data Consortium For Indian Languages
+  description: A distribution portal for text and speech corpora operated by the Government of India.
+  url: "https://www.cdac.in/index.aspx?id=mlingual"
+  languages: []
+  categories: [Organisations]
+  tags: []
+
+- name: Localisation In Governance
+  description: A Goverment of India Project that works on enabling Indic language localisation across government projects.
+  url: "https://localization.gov.in"
+  languages: []
+  categories: [Organisations]
+  tags: [FOSS]
+
 - name: Alar
-  description: An authoritative open data Kannada-English dictionary by V. Krishna. 150,000 Kannada entries and 240,000 English definitions.
+  description: Authoritative open data Kannada - English dictionary by V. Krishna. 150,000 Kannada entries and 240,000 English definitions.
   url: "https://alar.ink"
   languages: [Kannada, English]
   categories: [Dictionaries]
   tags: [FOSS]
 
 - name: Olam
-  description: Open data crowd sourced English-Malayalam and authoritative Malayalam-Malayalam (Datuk) dictionary.
+  description: Open data crowd sourced English - Malayalam and authoritative Malayalam-Malayalam (Datuk) dictionary.
   url: "https://olam.in"
   languages: [Malayalam, English]
+  categories: [Dictionaries]
+  tags: [FOSS]
+
+- name: Bhagwadgomandal
+  description: Authoritative Gujarati dictionary created by Maharaj Bhagvadsinhji, ruler of erstwhile Gondal. 280,000 entries and 822,000 definitions.
+  url: http://www.bhagwadgomandal.com
+  languages: [Gujarati]
+  categories: [Dictionaries]
+  tags: []
+
+- name: John Platts Hindi, Urdu Dictionary
+  description: John T. Platts English, Hindi, Urdu dictionary (1884) maintained by University of Chicago under the Digital Dictionaries of South Asia project. 
+  url: https://dsal.uchicago.edu/dictionaries/platts/
+  languages: [English, Hindi, Urdu]
+  categories: [Dictionaries]
+  tags: [FOSS]
+
+- name: J.T Molesworth Marathi Dictionary
+  description: J.T Molesworth English, Marathi dictionary (1857) maintained by University of Chicago under the Digital Dictionaries of South Asia project. 
+  url: https://dsal.uchicago.edu/dictionaries/molesworth/
+  languages: [English, Marathi]
+  categories: [Dictionaries]
+  tags: [FOSS]
+
+- name: Learn Punjabi
+  description: Online Punjabi - English dictionary.
+  url: http://dic.learnpunjabi.org/default.aspx
+  languages: [English, Punjabi]
+  categories: [Dictionaries]
+  tags: [Proprietary]
+
+- name: Agarthi
+  description: Online Tamil ↔ English dictionary. 
+  url: https://agarathi.com
+  languages: [English, Tamil]
+  categories: [Dictionaries]
+  tags: [Proprietary]
+
+- name: Tamil Dict
+  description: Online English-Tamil dictionary. 
+  url: https://www.tamildict.com
+  languages: [English, Tamil]
+  categories: [Dictionaries]
+  tags: [Proprietary]
+
+- name: Andhra Bharati
+  description: Online Telugu ↔ English dictionary. 
+  url: https://andhrabharati.com
+  languages: [English, Telugu]
+  categories: [Dictionaries]
+  tags: [Proprietary]
+
+- name: Odia Dictionary
+  description: Online Odia ↔ English dictionary. 
+  url: http://dictionary.odialanguage.com
+  languages: [English, Odiya]
+  categories: [Dictionaries]
+  tags: [Proprietary]
+
+- name: SpokenSanskrit
+  description: Online Sanskrit ↔ English dictionary.
+  url: https://spokensanskrit.org
+  languages: [Sanskrit, English]
+  categories: [Dictionaries]
+  tags: [Proprietary]
+
+- name: Shabdakosh
+  description: Online dictionary for multiple Indian languages.
+  url: https://spokensanskrit.org
+  languages: [Bengali, Gujarati, Hindi, Kannada, Konkani, Malayalam, Marathi, Punjabi, Tamil, Telugu]
+  categories: [Dictionaries]
+  tags: [Proprietary]
+
+- name: Wiktionary
+  description: Multi-lingual crowd sourced dictionary by Wikipedia.
+  url: https://www.wiktionary.org
+  languages: []
   categories: [Dictionaries]
   tags: [FOSS]
 
@@ -27,12 +153,61 @@
   categories: [Code, Tools]
   tags: [FOSS]
 
+- name: QuillPad
+  description: Online tool for typing in Indian languages.
+  url: "https://www.quillpad.in/index.html"
+  languages: []
+  categories: [Code, Tools]
+  tags: [FOSS]
+
+- name: Google Translate
+  description: Online tool for translating from and into various Indian languages.
+  url: "https://translate.google.com"
+  languages: []
+  categories: [Tools]
+  tags: [Proprietary]
+
+- name: Libindic
+  description: Libindic is a web platform to host Free Software language processing applications and consists of a web framework and a set of applications for processing Indian languages.
+  url: "https://libindic.org"
+  languages: []
+  categories: [Code, Tools]
+  tags: [FOSS]
+
+- name: Microsoft Indic Language Input Tool (ILIT)
+  description: Indian language input tools for Microsoft Windows applications.
+  url: "https://www.microsoft.com/en-in/bhashaindia/downloads.aspx"
+  languages: []
+  categories: [Tools]
+  tags: [Proprietary]
+
+- name: iNLTK
+  description: NLP toolkit for multiple Indian languages.
+  url: "https://inltk.readthedocs.io/en/latest"
+  languages: []
+  categories: [Code]
+  tags: [FOSS]
+
+- name: Indic NLP Library
+  description: A Python toolkit for Indic text processing including normalisation, tokenisation etc.
+  url: "https://github.com/anoopkunchukuttan/indic_nlp_library"
+  languages: []
+  categories: [Code]
+  tags: [FOSS]
+
 - name: Indic Keyboard
-  description: An open source, privacy aware Indian language keyboard for Android that supports 23 languages and 57 layouts.
+  description: Open source, privacy aware Indian language keyboard for Android that supports 23 languages and 57 layouts.
   url: "https://indic.app"
   languages: []
   categories: [Tools]
   tags: [FOSS, Mobile]
+
+- name: Google Input Tools
+  description: Online tool for phonetically typing Indian languages.
+  url: "https://www.google.com/inputtools/try"
+  languages: []
+  categories: [Tools]
+  tags: [Proprietary]
 
 - name: Swanalekha
   description: A Malayalam transliteration and input tool.
@@ -41,21 +216,21 @@
   categories: [Code]
   tags: [FOSS]
 
-- name: Malayalam morphology analyser
+- name: Malayalam Morphology Analyser
   description: Morphology analyser and generator component for Malayalam.
   url: "https://morph.smc.org.in"
   languages: [Malayalam]
   categories: [Code]
   tags: [FOSS]
 
-- name: Malayalam phonetic analyser
+- name: Malayalam Phonetic Analyser
   description: Malayalam Phonetic analyser and generator and IPA convertor. 
   url: "https://phon.smc.org.in"
   languages: [Malayalam]
   categories: [Code]
   tags: [FOSS]
 
-- name: Malayalam text prediction system
+- name: Malayalam Text Prediction System
   description: Markov chain based Malayalam text prediction system.
   url: "https://predict.smc.org.in"
   languages: [Malayalam]
@@ -69,7 +244,7 @@
   categories: [Code]
   tags: [FOSS]
 
-- name: KNPhone
+- name: KNphone
   description: KNPhone is an algorithm for phonetically encoding Kannada words into English keys words by their pronounciation, like Metaphone for English.
   url: "https://github.com/knadh/knphone"
   languages: [Kannada]
@@ -89,3 +264,143 @@
   languages: [Malayalam]
   categories: [Fonts]
   tags: [FOSS]
+
+- name: SMC Malayalam Fonts
+  description: A dozen open source fonts from Swathanthra Malayalam Computing.
+  url: "https://smc.org.in/fonts"
+  languages: [Malayalam]
+  categories: [Fonts]
+  tags: [FOSS]
+
+- name: Google Fonts
+  description: Fonts for multiple Indian languages.
+  url: "https://fonts.google.com/?subset=malayalam"
+  languages: []
+  categories: [Fonts]
+  tags: [FOSS]
+
+- name: Alar Kannada - English Corpus
+  description: Authoritative open data Kannada - English dictionary corpus by V. Krishna. 150,000 Kannada entries and 240,000 English definitions.
+  url: "https://github.com/alar-dict/data"
+  languages: [Kannada, English]
+  categories: [Data]
+  tags: [FOSS, Dictionary]
+
+- name: Olam English - Malayalam Corpus
+  description: Open data crowd sourced English - Malayalam dictionary corpus with 60,000 entries and 125,000 definitions.
+  url: "https://olam.in/open/enml"
+  languages: [Malayalam, English]
+  categories: [Data]
+  tags: [FOSS, Dictionary]
+
+- name: Datuk Corpus
+  description: Authoritative Malayalam - Malayalam dictionary corpus with 83,000 entries and 106,000 definitions.
+  url: "https://olam.in/open/datuk/"
+  languages: [Malayalam]
+  categories: [Data]
+  tags: [FOSS, Dictionary]
+
+- name: Malayalam Text Corpus
+  description: A collection of assorted Malayalam text with 800,000+ lines and 9.8+ million words curated by Swathanthra Malayalam Computing.
+  url: "https://gitlab.com/smc/corpus"
+  languages: [Malayalam]
+  categories: [Data]
+  tags: [FOSS]
+
+- name: Malayalam Speech Corpus
+  description: Speech corpus curated by Swathanthra Malayalam Computing.
+  url: "https://gitlab.com/smc/corpus"
+  languages: [Malayalam]
+  categories: [Data]
+  tags: [FOSS]
+
+- name: Microsoft Speech Corpus
+  description: Conversational and phrasal speech training and test data for Telugu, Tamil and Gujarati along with transcripts. 125,000+ entries.
+  url: "https://msropendata.com/datasets/7230b4b1-912d-400e-be58-f84e0512985e"
+  languages: [Telugu, Tamil, Gujarati]
+  categories: [Data]
+  tags: [FOSS, Audio]
+
+- name: Tamil News Corpus
+  description: Tamil news article corpus from indicnlp.org.
+  url: "https://www.kaggle.com/paarulakan/tamilnews-7m.zip"
+  languages: [Tamil]
+  categories: [Data]
+  tags: [FOSS]
+
+- name: Malayalam News Corpus
+  description: Malayalam news corpus scraped from multiple Malayalam news portals from indicnlp.org.
+  url: "https://onedrive.live.com/?authkey=%21ACQEFzFXwkkzFT0&id=9141551C9213EE2%21114&cid=09141551C9213EE2"
+  languages: [Malayalam]
+  categories: [Data]
+  tags: [FOSS]
+
+- name: Bengali News Corpus
+  description: Bengali news article corpus from indicnlp.org.
+  url: "https://www.kaggle.com/csoham/classification-bengali-news-articles-indicnlp"
+  languages: [Bengali]
+  categories: [Data]
+  tags: [FOSS]
+
+- name: Indica Languages Parallel Corpus
+  description: Parallel translation corpus of multiple Indian languages.
+  url: "https://www.kaggle.com/csoham/classification-bengali-news-articles-indicnlp"
+  languages: [Bengali, Hindi, Malayalam, Tamil, Telugu, Gujarati, Marathi]
+  categories: [Data]
+  tags: [FOSS]
+
+- name: Hindi Speech Recognition Corpus
+  description: Hindi speech audio recordings from 200+ speakers spanning 308 hours with transcriptions annotations.
+  url: "https://kingline.speechocean.com/exchange.php?act=view&id=16389"
+  languages: [Hindi]
+  categories: [Data]
+  tags: [Proprietary, Audio]
+
+- name: IIT-Bombay English - Hindi corpus
+  description: English - Hindi translation corpus.
+  url: "http://www.cfilt.iitb.ac.in/iitb_parallel/"
+  languages: [Hindi]
+  categories: [Data]
+  tags: [FOSS]
+
+- name: Indic Tweet Corpus
+  description: Text scrapped from Twitter with 7.9+ million entries for Telugu and 17.6+ million entries for Hindi.
+  url: "https://github.com/bedapudi6788/LOIT"
+  languages: [Hindi, Telugu]
+  categories: [Data]
+  tags: [FOSS]
+
+- name: DNLP Telugu Corpus
+  description: WAC style Telugu text corpus with 23+ million sentences and 280+ million tokens.
+  url: "https://drive.google.com/drive/folders/0B7LLASJiB2m6cDVzbnNjUVZ5dUE"
+  languages: [Telugu]
+  categories: [Data]
+  tags: [FOSS]
+
+- name: HindEnCorp
+  description: Paralel Hindi - English sentence alined translation text corpus with 132,000+ entries.
+  url: "https://lindat.mff.cuni.cz/repository/xmlui/handle/11858/00-097C-0000-0023-625F-0"
+  languages: [Hindi, English]
+  categories: [Data]
+  tags: [FOSS]
+
+- name: Urdu Monolingual Corpus
+  description: 5.4+ million automatically parts-of-speech text tagged Urdu entries.
+  url: "https://lindat.mff.cuni.cz/repository/xmlui/handle/11858/00-097C-0000-0023-65A9-5"
+  languages: [Urdu]
+  categories: [Data]
+  tags: [FOSS]
+
+- name: Hindi WikiData Translation Corpus
+  description: 87,000+ Hindi - English translation word pairs extracted from Wikipedia.
+  url: "https://shivamrana.me/2019/11/transliteration-wikidata/"
+  languages: [Hindi, English]
+  categories: [Data]
+  tags: [FOSS]
+
+- name: IndicTTS
+  description: A corpus of Indian languages covering 13 major languages of India with 10,000+ spoken sentences each of mono and English recorded by both male and female native speakers.
+  url: "https://www.iitm.ac.in/donlab/tts/database.php"
+  languages: []
+  categories: [Data]
+  tags: [Proprietary, Audio]
