@@ -22,7 +22,7 @@
 				<p class="slogan">A directory of Indic (Indian) language computing resources.</p>
 			</div>
 			<div class="intro">
-				<p><input id="search" class="search" type="text" placeholder="Search. eg: phonetic encoder" /></p>
+				<p><input id="search" class="search" type="text" placeholder="Search this page" /></p>
 			</div>
 		</header>
 	</div>
@@ -33,15 +33,17 @@
 		<section class="sidebar" id="sidebar">
 			<ul class="index">
         
-        <li><a href="code.html">Code (8)</a></li>
+        <li class=""><a href="code.html">Code (12)</a></li>
         
-        <li><a href="dictionaries.html">Dictionaries (2)</a></li>
+        <li class=""><a href="data.html">Data (18)</a></li>
         
-        <li><a href="fonts.html">Fonts (1)</a></li>
+        <li class="selected"><a href="dictionaries.html">Dictionaries (13)</a></li>
         
-        <li><a href="organisations.html">Organisations (1)</a></li>
+        <li class=""><a href="fonts.html">Fonts (3)</a></li>
         
-        <li><a href="tools.html">Tools (2)</a></li>
+        <li class=""><a href="organisations.html">Organisations (8)</a></li>
+        
+        <li class=""><a href="tools.html">Tools (7)</a></li>
         
 			</ul>
 		</section>
@@ -52,46 +54,122 @@
 				<a href="#" id="toggle-filters">Filter &rarr;</a>
 			
 			<section class="section" id="organisations">
-				<h3>Dictionaries (2)</h3>
+				<h3>Dictionaries (13)</h3>
 
 				<div class="filters" id="filters">
 					
 						<div class="languages">
 							
+								<label id="lang-Bengali">
+									<input type="checkbox" class="filter-language" for="lang-Bengali" checked value="bengali" />Bengali
+								</label>
+							
 								<label id="lang-English">
 									<input type="checkbox" class="filter-language" for="lang-English" checked value="english" />English
+								</label>
+							
+								<label id="lang-Gujarati">
+									<input type="checkbox" class="filter-language" for="lang-Gujarati" checked value="gujarati" />Gujarati
+								</label>
+							
+								<label id="lang-Hindi">
+									<input type="checkbox" class="filter-language" for="lang-Hindi" checked value="hindi" />Hindi
 								</label>
 							
 								<label id="lang-Kannada">
 									<input type="checkbox" class="filter-language" for="lang-Kannada" checked value="kannada" />Kannada
 								</label>
 							
+								<label id="lang-Konkani">
+									<input type="checkbox" class="filter-language" for="lang-Konkani" checked value="konkani" />Konkani
+								</label>
+							
 								<label id="lang-Malayalam">
 									<input type="checkbox" class="filter-language" for="lang-Malayalam" checked value="malayalam" />Malayalam
+								</label>
+							
+								<label id="lang-Marathi">
+									<input type="checkbox" class="filter-language" for="lang-Marathi" checked value="marathi" />Marathi
+								</label>
+							
+								<label id="lang-Odiya">
+									<input type="checkbox" class="filter-language" for="lang-Odiya" checked value="odiya" />Odiya
+								</label>
+							
+								<label id="lang-Punjabi">
+									<input type="checkbox" class="filter-language" for="lang-Punjabi" checked value="punjabi" />Punjabi
+								</label>
+							
+								<label id="lang-Sanskrit">
+									<input type="checkbox" class="filter-language" for="lang-Sanskrit" checked value="sanskrit" />Sanskrit
+								</label>
+							
+								<label id="lang-Tamil">
+									<input type="checkbox" class="filter-language" for="lang-Tamil" checked value="tamil" />Tamil
+								</label>
+							
+								<label id="lang-Telugu">
+									<input type="checkbox" class="filter-language" for="lang-Telugu" checked value="telugu" />Telugu
+								</label>
+							
+								<label id="lang-Urdu">
+									<input type="checkbox" class="filter-language" for="lang-Urdu" checked value="urdu" />Urdu
 								</label>
 							
 						</div>
 					
 
 					
+						<div class="tags">
+							
+								<label id="tag-FOSS">
+									<input type="checkbox" class="filter-tag" for="tag-FOSS" checked value="foss" />FOSS
+								</label>
+							
+								<label id="tag-Proprietary">
+									<input type="checkbox" class="filter-tag" for="tag-Proprietary" checked value="proprietary" />Proprietary
+								</label>
+							
+						</div>
+					
 				</div>
 
 				<ul id="items">
 					
 						<li class="item" 
+							data-languages="english|tamil|"
+							data-tags="proprietary|">
+							<h2 class="title">
+								
+									<span class="tag lang">English</span>
+								
+									<span class="tag lang">Tamil</span>
+								
+								<a href="https://agarathi.com" class="link">Agarthi</a>
+							</h2>
+
+							<p class="description">Online Tamil ↔ English dictionary.</p>
+
+							<div class="tags">
+								
+									<span class="tag">Proprietary</span>
+								
+							</div>
+						</li>
+					
+						<li class="item" 
 							data-languages="kannada|english|"
 							data-tags="foss|">
 							<h2 class="title">
-								<a href="https://alar.ink" class="link">Alar</a>
-
 								
 									<span class="tag lang">Kannada</span>
 								
 									<span class="tag lang">English</span>
 								
+								<a href="https://alar.ink" class="link">Alar</a>
 							</h2>
 
-							<p class="description">An authoritative open data Kannada-English dictionary by V. Krishna. 150,000 Kannada entries and 240,000 English definitions.</p>
+							<p class="description">Authoritative open data Kannada - English dictionary by V. Krishna. 150,000 Kannada entries and 240,000 English definitions.</p>
 
 							<div class="tags">
 								
@@ -101,19 +179,238 @@
 						</li>
 					
 						<li class="item" 
+							data-languages="english|telugu|"
+							data-tags="proprietary|">
+							<h2 class="title">
+								
+									<span class="tag lang">English</span>
+								
+									<span class="tag lang">Telugu</span>
+								
+								<a href="https://andhrabharati.com" class="link">Andhra Bharati</a>
+							</h2>
+
+							<p class="description">Online Telugu ↔ English dictionary.</p>
+
+							<div class="tags">
+								
+									<span class="tag">Proprietary</span>
+								
+							</div>
+						</li>
+					
+						<li class="item" 
+							data-languages="gujarati|"
+							data-tags="">
+							<h2 class="title">
+								
+									<span class="tag lang">Gujarati</span>
+								
+								<a href="http://www.bhagwadgomandal.com" class="link">Bhagwadgomandal</a>
+							</h2>
+
+							<p class="description">Authoritative Gujarati dictionary created by Maharaj Bhagvadsinhji, ruler of erstwhile Gondal. 280,000 entries and 822,000 definitions.</p>
+
+							<div class="tags">
+								
+							</div>
+						</li>
+					
+						<li class="item" 
+							data-languages="english|marathi|"
+							data-tags="foss|">
+							<h2 class="title">
+								
+									<span class="tag lang">English</span>
+								
+									<span class="tag lang">Marathi</span>
+								
+								<a href="https://dsal.uchicago.edu/dictionaries/molesworth/" class="link">J.T Molesworth Marathi Dictionary</a>
+							</h2>
+
+							<p class="description">J.T Molesworth English, Marathi dictionary (1857) maintained by University of Chicago under the Digital Dictionaries of South Asia project.</p>
+
+							<div class="tags">
+								
+									<span class="tag">FOSS</span>
+								
+							</div>
+						</li>
+					
+						<li class="item" 
+							data-languages="english|hindi|urdu|"
+							data-tags="foss|">
+							<h2 class="title">
+								
+									<span class="tag lang">English</span>
+								
+									<span class="tag lang">Hindi</span>
+								
+									<span class="tag lang">Urdu</span>
+								
+								<a href="https://dsal.uchicago.edu/dictionaries/platts/" class="link">John Platts Hindi, Urdu Dictionary</a>
+							</h2>
+
+							<p class="description">John T. Platts English, Hindi, Urdu dictionary (1884) maintained by University of Chicago under the Digital Dictionaries of South Asia project.</p>
+
+							<div class="tags">
+								
+									<span class="tag">FOSS</span>
+								
+							</div>
+						</li>
+					
+						<li class="item" 
+							data-languages="english|punjabi|"
+							data-tags="proprietary|">
+							<h2 class="title">
+								
+									<span class="tag lang">English</span>
+								
+									<span class="tag lang">Punjabi</span>
+								
+								<a href="http://dic.learnpunjabi.org/default.aspx" class="link">Learn Punjabi</a>
+							</h2>
+
+							<p class="description">Online Punjabi - English dictionary.</p>
+
+							<div class="tags">
+								
+									<span class="tag">Proprietary</span>
+								
+							</div>
+						</li>
+					
+						<li class="item" 
+							data-languages="english|odiya|"
+							data-tags="proprietary|">
+							<h2 class="title">
+								
+									<span class="tag lang">English</span>
+								
+									<span class="tag lang">Odiya</span>
+								
+								<a href="http://dictionary.odialanguage.com" class="link">Odia Dictionary</a>
+							</h2>
+
+							<p class="description">Online Odia ↔ English dictionary.</p>
+
+							<div class="tags">
+								
+									<span class="tag">Proprietary</span>
+								
+							</div>
+						</li>
+					
+						<li class="item" 
 							data-languages="malayalam|english|"
 							data-tags="foss|">
 							<h2 class="title">
-								<a href="https://olam.in" class="link">Olam</a>
-
 								
 									<span class="tag lang">Malayalam</span>
 								
 									<span class="tag lang">English</span>
 								
+								<a href="https://olam.in" class="link">Olam</a>
 							</h2>
 
-							<p class="description">Open data crowd sourced English-Malayalam and authoritative Malayalam-Malayalam (Datuk) dictionary.</p>
+							<p class="description">Open data crowd sourced English - Malayalam and authoritative Malayalam-Malayalam (Datuk) dictionary.</p>
+
+							<div class="tags">
+								
+									<span class="tag">FOSS</span>
+								
+							</div>
+						</li>
+					
+						<li class="item" 
+							data-languages="bengali|gujarati|hindi|kannada|konkani|malayalam|marathi|punjabi|tamil|telugu|"
+							data-tags="proprietary|">
+							<h2 class="title">
+								
+									<span class="tag lang">Bengali</span>
+								
+									<span class="tag lang">Gujarati</span>
+								
+									<span class="tag lang">Hindi</span>
+								
+									<span class="tag lang">Kannada</span>
+								
+									<span class="tag lang">Konkani</span>
+								
+									<span class="tag lang">Malayalam</span>
+								
+									<span class="tag lang">Marathi</span>
+								
+									<span class="tag lang">Punjabi</span>
+								
+									<span class="tag lang">Tamil</span>
+								
+									<span class="tag lang">Telugu</span>
+								
+								<a href="https://spokensanskrit.org" class="link">Shabdakosh</a>
+							</h2>
+
+							<p class="description">Online dictionary for multiple Indian languages.</p>
+
+							<div class="tags">
+								
+									<span class="tag">Proprietary</span>
+								
+							</div>
+						</li>
+					
+						<li class="item" 
+							data-languages="sanskrit|english|"
+							data-tags="proprietary|">
+							<h2 class="title">
+								
+									<span class="tag lang">Sanskrit</span>
+								
+									<span class="tag lang">English</span>
+								
+								<a href="https://spokensanskrit.org" class="link">SpokenSanskrit</a>
+							</h2>
+
+							<p class="description">Online Sanskrit ↔ English dictionary.</p>
+
+							<div class="tags">
+								
+									<span class="tag">Proprietary</span>
+								
+							</div>
+						</li>
+					
+						<li class="item" 
+							data-languages="english|tamil|"
+							data-tags="proprietary|">
+							<h2 class="title">
+								
+									<span class="tag lang">English</span>
+								
+									<span class="tag lang">Tamil</span>
+								
+								<a href="https://www.tamildict.com" class="link">Tamil Dict</a>
+							</h2>
+
+							<p class="description">Online English-Tamil dictionary.</p>
+
+							<div class="tags">
+								
+									<span class="tag">Proprietary</span>
+								
+							</div>
+						</li>
+					
+						<li class="item" 
+							data-languages=""
+							data-tags="foss|">
+							<h2 class="title">
+								
+								<a href="https://www.wiktionary.org" class="link">Wiktionary</a>
+							</h2>
+
+							<p class="description">Multi-lingual crowd sourced dictionary by Wikipedia.</p>
 
 							<div class="tags">
 								

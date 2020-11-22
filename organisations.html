@@ -22,7 +22,7 @@
 				<p class="slogan">A directory of Indic (Indian) language computing resources.</p>
 			</div>
 			<div class="intro">
-				<p><input id="search" class="search" type="text" placeholder="Search. eg: phonetic encoder" /></p>
+				<p><input id="search" class="search" type="text" placeholder="Search this page" /></p>
 			</div>
 		</header>
 	</div>
@@ -33,15 +33,17 @@
 		<section class="sidebar" id="sidebar">
 			<ul class="index">
         
-        <li><a href="code.html">Code (8)</a></li>
+        <li class=""><a href="code.html">Code (12)</a></li>
         
-        <li><a href="dictionaries.html">Dictionaries (2)</a></li>
+        <li class=""><a href="data.html">Data (18)</a></li>
         
-        <li><a href="fonts.html">Fonts (1)</a></li>
+        <li class=""><a href="dictionaries.html">Dictionaries (13)</a></li>
         
-        <li><a href="organisations.html">Organisations (1)</a></li>
+        <li class=""><a href="fonts.html">Fonts (3)</a></li>
         
-        <li><a href="tools.html">Tools (2)</a></li>
+        <li class="selected"><a href="organisations.html">Organisations (8)</a></li>
+        
+        <li class=""><a href="tools.html">Tools (7)</a></li>
         
 			</ul>
 		</section>
@@ -52,9 +54,21 @@
 				<a href="#" id="toggle-filters">Filter &rarr;</a>
 			
 			<section class="section" id="organisations">
-				<h3>Organisations (1)</h3>
+				<h3>Organisations (8)</h3>
 
 				<div class="filters" id="filters">
+					
+						<div class="languages">
+							
+								<label id="lang-Kannada">
+									<input type="checkbox" class="filter-language" for="lang-Kannada" checked value="kannada" />Kannada
+								</label>
+							
+								<label id="lang-Malayalam">
+									<input type="checkbox" class="filter-language" for="lang-Malayalam" checked value="malayalam" />Malayalam
+								</label>
+							
+						</div>
 					
 
 					
@@ -63,17 +77,129 @@
 				<ul id="items">
 					
 						<li class="item" 
+							data-languages=""
+							data-tags="">
+							<h2 class="title">
+								
+								<a href="https://www.cdac.in/index.aspx?id=mlingual" class="link">C-DAC</a>
+							</h2>
+
+							<p class="description">Center for Advanced Computing (C-DAC), an autonomous institution operating under the Goverment of India institution, undertakes various multi-lingual computing projects and initiatives.</p>
+
+							<div class="tags">
+								
+							</div>
+						</li>
+					
+						<li class="item" 
+							data-languages=""
+							data-tags="">
+							<h2 class="title">
+								
+								<a href="http://sanskrit.jnu.ac.in/ilci/index.jsp" class="link">Indian Languages Corpora Initiative (ILCI)</a>
+							</h2>
+
+							<p class="description">A project at the School of Sanskrit and Indic Studies, JNU, building parallel corpora for multiple Indian languages.</p>
+
+							<div class="tags">
+								
+							</div>
+						</li>
+					
+						<li class="item" 
+							data-languages=""
+							data-tags="foss|">
+							<h2 class="title">
+								
+								<a href="https://indicnlp.org" class="link">IndicNLP</a>
+							</h2>
+
+							<p class="description">Open data platform and computing tools for the regional Indian languages.</p>
+
+							<div class="tags">
+								
+									<span class="tag">FOSS</span>
+								
+							</div>
+						</li>
+					
+						<li class="item" 
+							data-languages=""
+							data-tags="">
+							<h2 class="title">
+								
+								<a href="https://indicnlp.org" class="link">KaGaPa</a>
+							</h2>
+
+							<p class="description">Kannada Ganaka Parishat is an organisation that works on digital Kannada literature projects.</p>
+
+							<div class="tags">
+								
+							</div>
+						</li>
+					
+						<li class="item" 
+							data-languages=""
+							data-tags="">
+							<h2 class="title">
+								
+								<a href="https://www.cdac.in/index.aspx?id=mlingual" class="link">Linguistic Data Consortium For Indian Languages</a>
+							</h2>
+
+							<p class="description">A distribution portal for text and speech corpora operated by the Government of India.</p>
+
+							<div class="tags">
+								
+							</div>
+						</li>
+					
+						<li class="item" 
+							data-languages=""
+							data-tags="foss|">
+							<h2 class="title">
+								
+								<a href="https://localization.gov.in" class="link">Localisation In Governance</a>
+							</h2>
+
+							<p class="description">A Goverment of India Project that works on enabling Indic language localisation across government projects.</p>
+
+							<div class="tags">
+								
+									<span class="tag">FOSS</span>
+								
+							</div>
+						</li>
+					
+						<li class="item" 
+							data-languages="kannada|"
+							data-tags="foss|">
+							<h2 class="title">
+								
+									<span class="tag lang">Kannada</span>
+								
+								<a href="https://sanchaya.org" class="link">Sanchaya</a>
+							</h2>
+
+							<p class="description">A non-profit organisation working on Kannada digitising projects.</p>
+
+							<div class="tags">
+								
+									<span class="tag">FOSS</span>
+								
+							</div>
+						</li>
+					
+						<li class="item" 
 							data-languages="malayalam|"
 							data-tags="foss|">
 							<h2 class="title">
-								<a href="https://smc.org.in" class="link">Swathanthra Malayalam Computing (SMC)</a>
-
 								
 									<span class="tag lang">Malayalam</span>
 								
+								<a href="https://smc.org.in" class="link">Swathanthra Malayalam Computing (SMC)</a>
 							</h2>
 
-							<p class="description">A free software collective engaged in development, localization, standardization and popularization of various FOSS in Malayalam.</p>
+							<p class="description">A non-profit free software collective engaged in development, localization, standardization and popularization of various FOSS in Malayalam.</p>
 
 							<div class="tags">
 								

@@ -22,7 +22,7 @@
 				<p class="slogan">A directory of Indic (Indian) language computing resources.</p>
 			</div>
 			<div class="intro">
-				<p><input id="search" class="search" type="text" placeholder="Search. eg: phonetic encoder" /></p>
+				<p><input id="search" class="search" type="text" placeholder="Search this page" /></p>
 			</div>
 		</header>
 	</div>
@@ -33,15 +33,17 @@
 		<section class="sidebar" id="sidebar">
 			<ul class="index">
         
-        <li><a href="code.html">Code (8)</a></li>
+        <li class="selected"><a href="code.html">Code (12)</a></li>
         
-        <li><a href="dictionaries.html">Dictionaries (2)</a></li>
+        <li class=""><a href="data.html">Data (18)</a></li>
         
-        <li><a href="fonts.html">Fonts (1)</a></li>
+        <li class=""><a href="dictionaries.html">Dictionaries (13)</a></li>
         
-        <li><a href="organisations.html">Organisations (1)</a></li>
+        <li class=""><a href="fonts.html">Fonts (3)</a></li>
         
-        <li><a href="tools.html">Tools (2)</a></li>
+        <li class=""><a href="organisations.html">Organisations (8)</a></li>
+        
+        <li class=""><a href="tools.html">Tools (7)</a></li>
         
 			</ul>
 		</section>
@@ -52,7 +54,7 @@
 				<a href="#" id="toggle-filters">Filter &rarr;</a>
 			
 			<section class="section" id="organisations">
-				<h3>Code (8)</h3>
+				<h3>Code (12)</h3>
 
 				<div class="filters" id="filters">
 					
@@ -79,14 +81,47 @@
 				<ul id="items">
 					
 						<li class="item" 
+							data-languages=""
+							data-tags="foss|">
+							<h2 class="title">
+								
+								<a href="https://github.com/anoopkunchukuttan/indic_nlp_library" class="link">Indic NLP Library</a>
+							</h2>
+
+							<p class="description">A Python toolkit for Indic text processing including normalisation, tokenisation etc.</p>
+
+							<div class="tags">
+								
+									<span class="tag">FOSS</span>
+								
+							</div>
+						</li>
+					
+						<li class="item" 
+							data-languages=""
+							data-tags="foss|">
+							<h2 class="title">
+								
+								<a href="https://inltk.readthedocs.io/en/latest" class="link">iNLTK</a>
+							</h2>
+
+							<p class="description">NLP toolkit for multiple Indian languages.</p>
+
+							<div class="tags">
+								
+									<span class="tag">FOSS</span>
+								
+							</div>
+						</li>
+					
+						<li class="item" 
 							data-languages="kannada|"
 							data-tags="foss|">
 							<h2 class="title">
-								<a href="https://github.com/knadh/knphone" class="link">KNPhone</a>
-
 								
 									<span class="tag lang">Kannada</span>
 								
+								<a href="https://github.com/knadh/knphone" class="link">KNphone</a>
 							</h2>
 
 							<p class="description">KNPhone is an algorithm for phonetically encoding Kannada words into English keys words by their pronounciation, like Metaphone for English.</p>
@@ -99,17 +134,14 @@
 						</li>
 					
 						<li class="item" 
-							data-languages="malayalam|"
+							data-languages=""
 							data-tags="foss|">
 							<h2 class="title">
-								<a href="https://github.com/knadh/mlphone" class="link">MLphone</a>
-
 								
-									<span class="tag lang">Malayalam</span>
-								
+								<a href="https://libindic.org" class="link">Libindic</a>
 							</h2>
 
-							<p class="description">MLphone is an algorithm for phonetically encoding Malayalam words into English keys words by their pronounciation, like Metaphone for English.</p>
+							<p class="description">Libindic is a web platform to host Free Software language processing applications and consists of a web framework and a set of applications for processing Indian languages.</p>
 
 							<div class="tags">
 								
@@ -122,11 +154,10 @@
 							data-languages="malayalam|"
 							data-tags="foss|">
 							<h2 class="title">
-								<a href="https://morph.smc.org.in" class="link">Malayalam morphology analyser</a>
-
 								
 									<span class="tag lang">Malayalam</span>
 								
+								<a href="https://morph.smc.org.in" class="link">Malayalam Morphology Analyser</a>
 							</h2>
 
 							<p class="description">Morphology analyser and generator component for Malayalam.</p>
@@ -142,11 +173,10 @@
 							data-languages="malayalam|"
 							data-tags="foss|">
 							<h2 class="title">
-								<a href="https://phon.smc.org.in" class="link">Malayalam phonetic analyser</a>
-
 								
 									<span class="tag lang">Malayalam</span>
 								
+								<a href="https://phon.smc.org.in" class="link">Malayalam Phonetic Analyser</a>
 							</h2>
 
 							<p class="description">Malayalam Phonetic analyser and generator and IPA convertor.</p>
@@ -162,11 +192,10 @@
 							data-languages="malayalam|"
 							data-tags="foss|">
 							<h2 class="title">
-								<a href="https://predict.smc.org.in" class="link">Malayalam text prediction system</a>
-
 								
 									<span class="tag lang">Malayalam</span>
 								
+								<a href="https://predict.smc.org.in" class="link">Malayalam Text Prediction System</a>
 							</h2>
 
 							<p class="description">Markov chain based Malayalam text prediction system.</p>
@@ -179,14 +208,70 @@
 						</li>
 					
 						<li class="item" 
-							data-languages="malayalam|"
+							data-languages="malayalam|english|"
 							data-tags="foss|">
 							<h2 class="title">
-								<a href="https://swanalekha.smc.org.in" class="link">Swanalekha</a>
-
 								
 									<span class="tag lang">Malayalam</span>
 								
+									<span class="tag lang">English</span>
+								
+								<a href="https://github.com/knadh/ml2en" class="link">ml2en</a>
+							</h2>
+
+							<p class="description">An algorithm to transliterate Malayalam script to Roman / Latin characters (Manglish).</p>
+
+							<div class="tags">
+								
+									<span class="tag">FOSS</span>
+								
+							</div>
+						</li>
+					
+						<li class="item" 
+							data-languages="malayalam|"
+							data-tags="foss|">
+							<h2 class="title">
+								
+									<span class="tag lang">Malayalam</span>
+								
+								<a href="https://github.com/knadh/mlphone" class="link">MLphone</a>
+							</h2>
+
+							<p class="description">MLphone is an algorithm for phonetically encoding Malayalam words into English keys words by their pronounciation, like Metaphone for English.</p>
+
+							<div class="tags">
+								
+									<span class="tag">FOSS</span>
+								
+							</div>
+						</li>
+					
+						<li class="item" 
+							data-languages=""
+							data-tags="foss|">
+							<h2 class="title">
+								
+								<a href="https://www.quillpad.in/index.html" class="link">QuillPad</a>
+							</h2>
+
+							<p class="description">Online tool for typing in Indian languages.</p>
+
+							<div class="tags">
+								
+									<span class="tag">FOSS</span>
+								
+							</div>
+						</li>
+					
+						<li class="item" 
+							data-languages="malayalam|"
+							data-tags="foss|">
+							<h2 class="title">
+								
+									<span class="tag lang">Malayalam</span>
+								
+								<a href="https://swanalekha.smc.org.in" class="link">Swanalekha</a>
 							</h2>
 
 							<p class="description">A Malayalam transliteration and input tool.</p>
@@ -202,34 +287,11 @@
 							data-languages=""
 							data-tags="foss|">
 							<h2 class="title">
-								<a href="https://www.varnamproject.com" class="link">Varnam</a>
-
 								
+								<a href="https://www.varnamproject.com" class="link">Varnam</a>
 							</h2>
 
 							<p class="description">An open source, cross platform typing input transliterator for Indian languages.</p>
-
-							<div class="tags">
-								
-									<span class="tag">FOSS</span>
-								
-							</div>
-						</li>
-					
-						<li class="item" 
-							data-languages="malayalam|english|"
-							data-tags="foss|">
-							<h2 class="title">
-								<a href="https://github.com/knadh/ml2en" class="link">ml2en</a>
-
-								
-									<span class="tag lang">Malayalam</span>
-								
-									<span class="tag lang">English</span>
-								
-							</h2>
-
-							<p class="description">An algorithm to transliterate Malayalam script to Roman / Latin characters (Manglish).</p>
 
 							<div class="tags">
 								
