@@ -1,0 +1,91 @@
+---
+- name: Swathanthra Malayalam Computing (SMC)
+  description: A free software collective engaged in development, localization, standardization and popularization of various FOSS in Malayalam.
+  url: "https://smc.org.in"
+  languages: [Malayalam]
+  categories: [Organisations]
+  tags: [FOSS]
+
+- name: Alar
+  description: An authoritative open data Kannada-English dictionary by V. Krishna. 150,000 Kannada entries and 240,000 English definitions.
+  url: "https://alar.ink"
+  languages: [Kannada, English]
+  categories: [Dictionaries]
+  tags: [FOSS]
+
+- name: Olam
+  description: Open data crowd sourced English-Malayalam and authoritative Malayalam-Malayalam (Datuk) dictionary.
+  url: "https://olam.in"
+  languages: [Malayalam, English]
+  categories: [Dictionaries]
+  tags: [FOSS]
+
+- name: Varnam
+  description: An open source, cross platform typing input transliterator for Indian languages.
+  url: "https://www.varnamproject.com"
+  languages: []
+  categories: [Code, Tools]
+  tags: [FOSS]
+
+- name: Indic Keyboard
+  description: An open source, privacy aware Indian language keyboard for Android that supports 23 languages and 57 layouts.
+  url: "https://indic.app"
+  languages: []
+  categories: [Tools]
+  tags: [FOSS, Mobile]
+
+- name: Swanalekha
+  description: A Malayalam transliteration and input tool.
+  url: "https://swanalekha.smc.org.in"
+  languages: [Malayalam]
+  categories: [Code]
+  tags: [FOSS]
+
+- name: Malayalam morphology analyser
+  description: Morphology analyser and generator component for Malayalam.
+  url: "https://morph.smc.org.in"
+  languages: [Malayalam]
+  categories: [Code]
+  tags: [FOSS]
+
+- name: Malayalam phonetic analyser
+  description: Malayalam Phonetic analyser and generator and IPA convertor. 
+  url: "https://phon.smc.org.in"
+  languages: [Malayalam]
+  categories: [Code]
+  tags: [FOSS]
+
+- name: Malayalam text prediction system
+  description: Markov chain based Malayalam text prediction system.
+  url: "https://predict.smc.org.in"
+  languages: [Malayalam]
+  categories: [Code]
+  tags: [FOSS]
+
+- name: MLphone
+  description: MLphone is an algorithm for phonetically encoding Malayalam words into English keys words by their pronounciation, like Metaphone for English.
+  url: "https://github.com/knadh/mlphone"
+  languages: [Malayalam]
+  categories: [Code]
+  tags: [FOSS]
+
+- name: KNPhone
+  description: KNPhone is an algorithm for phonetically encoding Kannada words into English keys words by their pronounciation, like Metaphone for English.
+  url: "https://github.com/knadh/knphone"
+  languages: [Kannada]
+  categories: [Code]
+  tags: [FOSS]
+
+- name: ml2en
+  description: An algorithm to transliterate Malayalam script to Roman / Latin characters (Manglish).
+  url: "https://github.com/knadh/ml2en"
+  languages: [Malayalam, English]
+  categories: [Code]
+  tags: [FOSS]
+
+- name: Ishtika
+  description: A fancy geometric Malayalam unicode heading font.
+  url: "https://nadh.in/ishtika"
+  languages: [Malayalam]
+  categories: [Fonts]
+  tags: [FOSS]
