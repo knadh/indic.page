@@ -188,6 +188,20 @@
   categories: [Code]
   tags: [FOSS]
 
+- name: py-lingualytics
+  description: Python Indic text processing library built on top of Pytorch, Transformers, Texthero, NLTK and Scikit-learn.
+  url: "https://github.com/lingualytics/py-lingualytics"
+  languages: []
+  categories: [Code]
+  tags: [FOSS]
+
+- name: dictmaker
+  description: A standalone web application for rapidly building and publishing dictionary websites.
+  url: "https://github.com/knadh/dictmaker"
+  languages: []
+  categories: [Code]
+  tags: [FOSS]
+
 - name: Indic NLP Library
   description: A Python toolkit for Indic text processing including normalisation, tokenisation etc.
   url: "https://github.com/anoopkunchukuttan/indic_nlp_library"
