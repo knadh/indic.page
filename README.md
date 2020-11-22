@@ -2,6 +2,8 @@
 
 [Indic.page](https://indic.page) is a directory of Indic (Indian) language computing resources.
 
+[![image](https://user-images.githubusercontent.com/547147/99902921-19644000-2ce7-11eb-96bf-99bda2c68507.png)](https://indic.page)
+
 ## Contributing
 
 All resources are listed in the [data.yml](data.yml) file. To add a new resource or change something, submit a PR with a patch to it. The website will be updated automatically upon merge.
