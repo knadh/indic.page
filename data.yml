@@ -22,8 +22,8 @@
 
 - name: KaGaPa
   description: Kannada Ganaka Parishat is an organisation that works on digital Kannada literature projects.
-  url: "https://indicnlp.org"
-  languages: []
+  url: "http://www.kagapa.in/kannada/"
+  languages: [Kannada]
   categories: [Organisations]
   tags: []
 
@@ -43,7 +43,7 @@
 
 - name: Linguistic Data Consortium For Indian Languages
   description: A distribution portal for text and speech corpora operated by the Government of India.
-  url: "https://www.cdac.in/index.aspx?id=mlingual"
+  url: "https://data.ldcil.org"
   languages: []
   categories: [Organisations]
   tags: []
@@ -56,7 +56,7 @@
   tags: [FOSS]
 
 - name: Alar
-  description: Authoritative open data Kannada - English dictionary by V. Krishna. 150,000 Kannada entries and 240,000 English definitions.
+  description: Authoritative online open data Kannada - English dictionary by V. Krishna. 150,000 Kannada entries and 240,000 English definitions.
   url: "https://alar.ink"
   languages: [Kannada, English]
   categories: [Dictionaries]
