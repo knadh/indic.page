@@ -111,6 +111,41 @@
   categories: [Dictionaries]
   tags: [Proprietary]
 
+- name: Chol
+  description: Online Tamil ↔ English dictionary.
+  url: https://karky.in/karefo/labs/chol/chol.html
+  languages: [English, Tamil]
+  categories: [Dictionaries, Mobile]
+  tags: [Proprietary]
+
+- name: Piripori
+  description: Online Tamil word Analyser
+  url: https://karky.in/karefo/labs/piripori/piripori.html
+  languages: [English, Tamil]
+  categories: [Tools]
+  tags: [Proprietary]
+
+- name: Olingoa
+  description: Online transliterator
+  url: https://karky.in/karefo/labs/olingoa/olingoa.html
+  languages: [Tamil, Telugu, Malayalam, Kannada, Konkani, Oriya, Marathi, Gujarati, Bengali, Hindi]
+  categories: [Tools]
+  tags: [Proprietary]
+
+- name: Paeri
+  description: Online Tamil Name generator
+  url: https://karky.in/karefo/labs/paeri/paeri.html
+  languages: [Tamil]
+  categories: [Tools]
+  tags: [Proprietary]
+
+- name: Emoni
+  description: Online Tamil Rhyme finder
+  url: https://karky.in/karefo/labs/emoni/emoni.html
+  languages: [Tamil]
+  categories: [Tools]
+  tags: [Proprietary]
+
 - name: Andhra Bharati
   description: Online Telugu ↔ English dictionary. 
   url: https://andhrabharati.com
