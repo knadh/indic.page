@@ -121,7 +121,7 @@
 - name: Piripori
   description: Online Tamil word Analyser
   url: https://karky.in/karefo/labs/piripori/piripori.html
-  languages: [English, Tamil]
+  languages: [Tamil]
   categories: [Tools]
   tags: [Proprietary]
 
