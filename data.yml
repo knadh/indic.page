@@ -247,7 +247,7 @@
 - name: Indic Keyboard
   description: Open source, privacy aware Indian language keyboard for Android that supports 23 languages and 57 layouts.
   url: "https://indic.app"
-  languages: []
+  languages: [Malayalam, Tamil, Kannada, Hindi, Arabic, Assamese, Bengali, Burmese, Gujarati, Kashmiri, Manipuri, Maithili, Marati, Mon, Nepali, Oria, Punjabi, Sanskrit, Santali, Sinhala, Urdu]
   categories: [Tools]
   tags: [FOSS, Mobile]
 
