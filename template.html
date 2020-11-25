@@ -84,19 +84,20 @@
 							data-languages="{% for v in i.languages %}{{ v | lower}}|{% endfor %}"
 							data-tags="{% for v in i.tags %}{{ v | lower}}|{% endfor %}">
 							<h2 class="title">
-								{% for l in i.languages %}
-									<span class="tag lang">{{ l }}</span>
+								{% for t in i.tags %}
+									<span class="tag">{{ t }}</span>
 								{% endfor %}
-
 								<a href="{{ i.url }}" class="link">{{ i.name }}</a>
 							</h2>
 
 							<p class="description">{{ i.description }}</p>
 
 							<div class="tags">
-								{% for t in i.tags %}
-									<span class="tag">{{ t }}</span>
+								{% for l in i.languages %}
+									<span class="tag lang">{{ l }}</span>
 								{% endfor %}
+
+								<a href="" class="reveal">+{{ (i.languages | length) - 5 }} &larr; View all</a>
 							</div>
 						</li>
 					{% endfor %}

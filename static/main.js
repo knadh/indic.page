@@ -124,11 +124,24 @@ function tokenize(str) {
 		};
 	});
 
-
 	// Tags filter.
 	document.querySelectorAll(".filter-tag").forEach(el => {
 		el.onchange = () => {
 			onFilterClick("tags", "tag");
 		};
 	});
+
+	// 'View all' link on 5+ languages.
+	document.querySelectorAll(".reveal").forEach(el => {
+		el.onclick = (e) => {
+			e.preventDefault();
+
+			if (e.target.parentNode.classList.contains("visible")) {
+				e.target.parentNode.classList.remove("visible");
+			} else {
+				e.target.parentNode.classList.add("visible");
+			}
+		};
+	});
+
 })();

@@ -136,15 +136,16 @@ footer {
 }
 
 
-.title .tag {
-	float: right;
-	margin: 0 0 5px 5px;
-}
 .tag {
-	font-size: 12px;
 	background: #eee;
+	font-size: 12px;
 	color: #666;
 	line-height: 1em;
+	text-align: center;
+	margin-right: 5px;
+
+	display: inline-block;
+	min-width: 85px;
 	padding: 5px 15px;
 	border-radius: 3px;
 }
@@ -152,6 +153,26 @@ footer {
 		background: #e0ffec;
 		color: #2ca05a;
 	}
+
+	/* Show max 5 tags and the "Reveal" link next to it */
+	.tags .tag:nth-child(n+6) {
+		display: none;
+	}
+	.tags .reveal {
+		display: none;
+	}
+	.tags .tag:nth-child(n+6)+.reveal {
+		display: inline-block;
+		font-size: 0.875em;
+		line-height: 1em;
+	}
+	.tags.visible .tag {
+		display: inline-block !important;
+	}
+
+.title .tag {
+	float: right;
+}
 
 .languages {
 	margin-bottom: 20px;
@@ -162,7 +183,7 @@ footer {
 	border: 1px solid #eee;
 }
 	#items .item {
-		padding: 15px 30px;
+		padding: 20px 30px;
 	}
 	#items .item:hover {
 		background: #f9f9f9;
