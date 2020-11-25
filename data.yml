@@ -21,9 +21,9 @@
   tags: [FOSS]
   
 - name: Indic Project
-  description: "Indian language applications and solutions for majority of India that does not speak English"
+  description: Indian language applications and solutions for majority of India that does not speak English
   url: "https://indicproject.org/"
-  langauges: [Malayalam, Tamil, Kannada, Hindi, French, Spanish, Arabic, Assamese, Bengali, Burmese, Gujarati, Kashmiri, Manipuri, Maithili, Marati, Mon, Nepali, Oria, Punjabi, Sanskrit, Santali, Sinhala, Urdu]
+  languages: [Malayalam, Tamil, Kannada, Hindi, French, Spanish, Arabic, Assamese, Bengali, Burmese, Gujarati, Kashmiri, Manipuri, Maithili, Marati, Mon, Nepali, Oria, Punjabi, Sanskrit, Santali, Sinhala, Urdu]
   categories: [Organisations]
   tags: [FOSS]
 
@@ -257,6 +257,99 @@
   languages: [Malayalam, Tamil, Kannada, Hindi, Arabic, Assamese, Bengali, Burmese, Gujarati, Kashmiri, Manipuri, Maithili, Marati, Mon, Nepali, Oria, Punjabi, Sanskrit, Santali, Sinhala, Urdu]
   categories: [Tools]
   tags: [FOSS, Mobile]
+  
+- name: libindic stemmer
+  description: stem the words in the given text.
+  url: "https://libindic.org/Stemmer"
+  languages: [Malayalam]
+  categories: [Tools]
+  tags: [FOSS]
+
+- name: libindic Syllabifier
+  description: find sylllables of given text.
+  url: "https://libindic.org/Syllabalizer"
+  languages: [Malayalam, Kannada, Bengali, Tamil, Hindi]
+  categories: [Tools]
+  tags: [FOSS]
+  
+
+
+- name: libindic Transliterator
+  description: Transliterate text from any Indian language to any other Indian language.
+  url: "https://libindic.org/Transliteration"
+  languages: [Malayalam, Kannada, Bengali, Tamil, Hindi, Odiya, Telugu, Gujarati, Punjabi]
+  categories: [Tools]
+  tags: [FOSS]
+
+- name: libindic Payyans
+  description: ASCII - Unicode Conversion.
+  url: "https://libindic.org/Payyans"
+  languages: [Malayalam]
+  categories: [Tools]
+  tags: [FOSS]
+
+- name: libindic NGram
+  description: An n-gram model is a type of probabilistic model for predicting the next item in a sequence.
+  url: "https://libindic.org/N-gram"
+  languages: [Hindi, Malayalam, Kannada, Bengali]
+  categories: [Tools]
+  tags: [FOSS]
+
+- name: libindic Unicode Character Details
+  description: Unicode details for given string.
+  url: "https://libindic.org/Chardetails"
+  languages: [Malayalam, Tamil, Kannada, Hindi, Assamese, Bengali, Burmese, Gujarati, Kashmiri, Manipuri, Maithili, Marathi, Mon, Nepali, Odiya, Punjabi, Sanskrit, Santali, Sinhala, Urdu]
+  categories: [Tools]
+  tags: [FOSS]
+
+- name: libindic Text Similarity
+  description: compare two texts for their similarity.
+  url: "https://libindic.org/Similar%20Texts"
+  languages: [Malayalam]
+  categories: [Tools]
+  tags: [FOSS]
+
+- name: libindic Soundex
+  description: Soundex Phonetic Code Algorithm Demo for Indian Languages.
+  url: "https://libindic.org/Soundex"
+  languages: [Malayalam, Tamil, Kannada, Hindi, Assamese, Bengali, Burmese, Gujarati, Kashmiri, Manipuri, Maithili, Marathi, Mon, Nepali, Odiya, Punjabi, Sanskrit, Santali, Sinhala, Urdu]
+  categories: [Tools]
+  tags: [FOSS]
+
+- name: libindic ApproxSearch
+  description:  Fuzzy string search application. This application illustrates the combined use of Edit distance and Indic Soundex algorithm.
+  url: "https://libindic.org/ApproxSearch"
+  languages: [Malayalam, Tamil, Kannada, Hindi, Assamese, Bengali, Burmese, Gujarati, Kashmiri, Manipuri, Maithili, Marathi, Mon, Nepali, Odiya, Punjabi, Sanskrit, Santali, Sinhala, Urdu]
+  categories: [Tools]
+  tags: [FOSS]
+
+- name: libindic W-shingling Library
+  description:  w-shingling is a set of unique "shingles"—contiguous subsequences of tokens in a document.
+  url: "https://libindic.org/Shingling"
+  languages: [Hindi, Malayalam, Kannada, Bengali]
+  categories: [Tools]
+  tags: [FOSS]
+
+- name: libindic Sort
+  description: Unicode Collation Algorithm(UCA) based sorting for all languages defined in Unicode.
+  url: "https://libindic.org/UCA%20Sort"
+  languages: [Malayalam, Tamil, Kannada, Hindi, Assamese, Bengali, Burmese, Gujarati, Kashmiri, Manipuri, Maithili, Marati, Mon, Nepali, Odiya, Punjabi, Sanskrit, Santali, Sinhala, Urdu]
+  categories: [Tools]
+  tags: [FOSS]
+
+- name: libindic Fortune Cookies
+  description: getting a random quote with the given string.
+  url: "https://libindic.org/Fortune"
+  languages: [Malayalam, Tamil, English]
+  categories: [Tools]
+  tags: [FOSS]
+
+- name: libindic Hyphenate
+  description: Hyphenation is the process inserting hyphens in between the syllables of a word so that when the text is justified, maximum space is utilized.
+  url: "https://libindic.org/Hyphenate"
+  languages: [Hindi, Malayalam, Tamil, Telugu, Kannada, Oriya, Bengali, Gujarati, Panjabi, Marathi, Sanskrit, Assamese, Kashmiri, Afrikaans, German, Croatian, Hungarian, Italian, Zulu]
+  categories: [Tools]
+  tags: [FOSS]
 
 - name: Google Input Tools
   description: Online tool for phonetically typing Indian languages.
