@@ -271,8 +271,6 @@
   languages: [Malayalam, Kannada, Bengali, Tamil, Hindi]
   categories: [Tools]
   tags: [FOSS]
-  
-
 
 - name: libindic Transliterator
   description: Transliterate text from any Indian language to any other Indian language.
@@ -348,6 +346,13 @@
   description: Hyphenation is the process inserting hyphens in between the syllables of a word so that when the text is justified, maximum space is utilized.
   url: "https://libindic.org/Hyphenate"
   languages: [Hindi, Malayalam, Tamil, Telugu, Kannada, Oriya, Bengali, Gujarati, Panjabi, Marathi, Sanskrit, Assamese, Kashmiri, Afrikaans, German, Croatian, Hungarian, Italian, Zulu]
+  categories: [Tools]
+  tags: [FOSS]
+
+- name: dhvani TTS
+  description: text to speech system designed for Indian Languages. The aim of this project is to ensure that literacy and knowledge of English are not essential for using a Computer. We hope that it will reduce the digital divide and will be helpful for the visually challenges users as screenreader in their mother tongue.
+  url: "http://dhvani.sourceforge.net"
+  languages: [Bengali, Gujarati, Hindi, Kannada, Malayalam, Marathi, Odiya, Panjabi, Tamil, Telugu, Pashto]
   categories: [Tools]
   tags: [FOSS]
 
