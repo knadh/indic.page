@@ -11,7 +11,11 @@ from jinja2 import Template
 
 def load_data(file):
 	with open(file, "r") as f:
-		return yaml.load(f.read())
+		out = yaml.load(f.read())
+		for item in out:
+			item["languages"].sort()
+			item["tags"].sort()
+		return out
 
 
 # Returns the list of unique tags from across all entries in the data.
