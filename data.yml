@@ -21,9 +21,9 @@
   tags: [FOSS]
   
 - name: Indic Project
-  description: "Indian language applications and solutions for majority of India that does not speak English"
+  description: Indian language applications and solutions for majority of India that does not speak English
   url: "https://indicproject.org/"
-  langauges: [Malayalam, Tamil, Kannada, Hindi, French, Spanish, Arabic, Assamese, Bengali, Burmese, Gujarati, Kashmiri, Manipuri, Maithili, Marati, Mon, Nepali, Oria, Punjabi, Sanskrit, Santali, Sinhala, Urdu]
+  languages: [Malayalam, Tamil, Kannada, Hindi, French, Spanish, Arabic, Assamese, Bengali, Burmese, Gujarati, Kashmiri, Manipuri, Maithili, Marati, Mon, Nepali, Oria, Punjabi, Sanskrit, Santali, Sinhala, Urdu]
   categories: [Organisations]
   tags: [FOSS]
 
