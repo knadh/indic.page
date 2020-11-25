@@ -560,3 +560,10 @@
   languages: [Kannada]
   categories: [Code]
   tags: [FOSS]
+
+- name:  Anuvaad
+  description:  State of the art translation for Indic languages
+  url: "https://github.com/notAI-tech/Anuvaad"
+  languages: [Hindi, Kannada, Malayalam, Marathi, Tamil, Telugu]
+  categories: [Code]
+  tags: [FOSS]
