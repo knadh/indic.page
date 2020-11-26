@@ -23,7 +23,7 @@
 - name: Indic Project
   description: Indian language applications and solutions for majority of India that does not speak English
   url: "https://indicproject.org/"
-  languages: [Malayalam, Tamil, Kannada, Hindi, French, Spanish, Arabic, Assamese, Bengali, Burmese, Gujarati, Kashmiri, Manipuri, Maithili, Marati, Mon, Nepali, Oria, Punjabi, Sanskrit, Santali, Sinhala, Urdu]
+  languages: [Malayalam, Tamil, Kannada, Hindi, Assamese, Bengali, Burmese, Gujarati, Kashmiri, Manipuri, Maithili, Marathi, Mon, Nepali, Odia, Punjabi, Sanskrit, Santali, Sinhala, Urdu]
   categories: [Organisations]
   tags: [FOSS]
 
@@ -254,7 +254,7 @@
 - name: Indic Keyboard
   description: Open source, privacy aware Indian language keyboard for Android that supports 23 languages and 57 layouts.
   url: "https://indic.app"
-  languages: [Malayalam, Tamil, Kannada, Hindi, Arabic, Assamese, Bengali, Burmese, Gujarati, Kashmiri, Manipuri, Maithili, Marati, Mon, Nepali, Oria, Punjabi, Sanskrit, Santali, Sinhala, Urdu]
+  languages: [Malayalam, Tamil, Kannada, Hindi, Assamese, Bengali, Burmese, Gujarati, Kashmiri, Manipuri, Maithili, Marathi, Mon, Nepali, Odia, Punjabi, Sanskrit, Santali, Sinhala, Urdu]
   categories: [Tools]
   tags: [FOSS, Mobile]
   
@@ -271,8 +271,6 @@
   languages: [Malayalam, Kannada, Bengali, Tamil, Hindi]
   categories: [Tools]
   tags: [FOSS]
-  
-
 
 - name: libindic Transliterator
   description: Transliterate text from any Indian language to any other Indian language.
@@ -333,7 +331,7 @@
 - name: libindic Sort
   description: Unicode Collation Algorithm(UCA) based sorting for all languages defined in Unicode.
   url: "https://libindic.org/UCA%20Sort"
-  languages: [Malayalam, Tamil, Kannada, Hindi, Assamese, Bengali, Burmese, Gujarati, Kashmiri, Manipuri, Maithili, Marati, Mon, Nepali, Odiya, Punjabi, Sanskrit, Santali, Sinhala, Urdu]
+  languages: [Malayalam, Tamil, Kannada, Hindi, Assamese, Bengali, Burmese, Gujarati, Kashmiri, Manipuri, Maithili, Marathi, Mon, Nepali, Odiya, Punjabi, Sanskrit, Santali, Sinhala, Urdu]
   categories: [Tools]
   tags: [FOSS]
 
@@ -347,7 +345,14 @@
 - name: libindic Hyphenate
   description: Hyphenation is the process inserting hyphens in between the syllables of a word so that when the text is justified, maximum space is utilized.
   url: "https://libindic.org/Hyphenate"
-  languages: [Hindi, Malayalam, Tamil, Telugu, Kannada, Oriya, Bengali, Gujarati, Panjabi, Marathi, Sanskrit, Assamese, Kashmiri, Afrikaans, German, Croatian, Hungarian, Italian, Zulu]
+  languages: [Hindi, Malayalam, Tamil, Telugu, Kannada, Odiya, Bengali, Gujarati, Panjabi, Marathi, Sanskrit, Assamese, Kashmiri]
+  categories: [Tools]
+  tags: [FOSS]
+
+- name: dhvani TTS
+  description: text to speech system designed for Indian Languages. The aim of this project is to ensure that literacy and knowledge of English are not essential for using a Computer. We hope that it will reduce the digital divide and will be helpful for the visually challenges users as screenreader in their mother tongue.
+  url: "http://dhvani.sourceforge.net"
+  languages: [Bengali, Gujarati, Hindi, Kannada, Malayalam, Marathi, Odiya, Panjabi, Tamil, Telugu]
   categories: [Tools]
   tags: [FOSS]
 
