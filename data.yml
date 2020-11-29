@@ -163,7 +163,7 @@
 - name: Odia Dictionary
   description: Online Odia ↔ English dictionary. 
   url: http://dictionary.odialanguage.com
-  languages: [English, Odiya]
+  languages: [English, Odia]
   categories: [Dictionaries]
   tags: [Proprietary]
 
@@ -223,6 +223,103 @@
   categories: [Tools]
   tags: [Proprietary]
 
+- name: SMC Handwriting
+  description: Handwriting recognition tool for Malayalam and Tamil
+  url: "https://smc.gitlab.io/handwriting"
+  languages: [Malayalam, Tamil]
+  categories: [Tools]
+  tags: [FOSS]
+
+- name: Malayalam Mash
+  description: A simple application to observe and learn how to write Malayalam letters.
+  url: "https://learn.smc.org.in/"
+  languages: [Malayalam]
+  categories: [Tools]
+  tags: [FOSS]
+
+- name: Malayalam OCR
+  description: Malayalam character recognition tool using tesseract.
+  url: "https://ocr.smc.org.in"
+  languages: [Malayalam]
+  categories: [Tools]
+  tags: [FOSS]
+
+- name: mlpredict
+  description: Malayalam word predictor using Marckov chain.
+  url: "https://predict.smc.org.in/"
+  languages: [Malayalam]
+  categories: [Tools]
+  tags: [FOSS]
+
+- name: swanalekha
+  description: A simple malayalam input method.
+  url: "https://swanalekha.smc.org.in/"
+  languages: [Malayalam]
+  categories: [Tools]
+  tags: [FOSS]
+
+- name: Speech Corpus web
+  description: A simple web application to collect sound samples.
+  url: "https://msc.smc.org.in/"
+  languages: [Malayalam]
+  categories: [Tools]
+  tags: [FOSS]
+
+- name: iBus Braille
+  description: Braille input method for Malayalm.
+  url: "https://gitlab.com/smc/ibus-braille"
+  languages: [Malayalam]
+  categories: [Tools]
+  tags: [FOSS]
+
+- name: Hyphenation
+  description: Hyphenation patterns for Indian languages.
+  url: "https://gitlab.com/smc/hyphenation"
+  languages: [Malayalam, Bengali, Gujarati, Punjabi, Assamese, Marathi, Tamil, Telugu, Kannada]
+  categories: [Tools]
+  tags: [FOSS]
+
+- name: Magisk Malayalam Fonts
+  description: Magiks Module to change the default Malayalam font in Android.
+  url: "https://gitlab.com/smc/magisk-malayalam-fonts"
+  languages: [Malayalam]
+  categories: [Tools]
+  tags: [FOSS]
+
+- name: Malayalam Fonts WebExtension
+  description: A browser extention for Malayalam inputs.
+  url: "https://gitlab.com/smc/Malayalam-Fonts-WebExtension"
+  languages: [Malayalam]
+  categories: [Tools]
+  tags: [FOSS]
+
+- name: kletters
+  description: Tool for learn the alphabet and then to read some syllables in different languages.
+  url: "https://edu.kde.org/klettres/"
+  languages: [Malayalam, Telugu, Kannada, Hindi]
+  categories: [Tools]
+  tags: [FOSS]
+
+- name: Chathans
+  description: Chathans is a GTK frontend to Payyans, a Malayalam ASCII to Unicode converter.
+  url: "https://gitlab.com/smc/chathans"
+  languages: [Malayalam]
+  categories: [Tools]
+  tags: [FOSS]
+
+- name: Padakosham
+  description: A detailed Malayalam - Malayalam dictionary
+  url: "https://gitlab.com/smc/padakosham"
+  languages: [Malayalam]
+  categories: [Tools]
+  tags: [FOSS]
+
+- name: Silpa - Swathanthra Indian Language Processing Applications
+  description: A web platform to host the free software language processing applications easily.
+  url: "https://savannah.nongnu.org/projects/silpa/"
+  languages: [Malayalam]
+  categories: [Tools]
+  tags: [FOSS]
 - name: iNLTK
   description: NLP toolkit for multiple Indian languages.
   url: "https://inltk.readthedocs.io/en/latest"
@@ -275,7 +372,7 @@
 - name: libindic Transliterator
   description: Transliterate text from any Indian language to any other Indian language.
   url: "https://libindic.org/Transliteration"
-  languages: [Malayalam, Kannada, Bengali, Tamil, Hindi, Odiya, Telugu, Gujarati, Punjabi]
+  languages: [Malayalam, Kannada, Bengali, Tamil, Hindi, Odia, Telugu, Gujarati, Punjabi]
   categories: [Tools]
   tags: [FOSS]
 
@@ -296,7 +393,7 @@
 - name: libindic Unicode Character Details
   description: Unicode details for given string.
   url: "https://libindic.org/Chardetails"
-  languages: [Malayalam, Tamil, Kannada, Hindi, Assamese, Bengali, Burmese, Gujarati, Kashmiri, Manipuri, Maithili, Marathi, Mon, Nepali, Odiya, Punjabi, Sanskrit, Santali, Sinhala, Urdu]
+  languages: [Malayalam, Tamil, Kannada, Hindi, Assamese, Bengali, Burmese, Gujarati, Kashmiri, Manipuri, Maithili, Marathi, Mon, Nepali, Odia, Punjabi, Sanskrit, Santali, Sinhala, Urdu]
   categories: [Tools]
   tags: [FOSS]
 
@@ -310,14 +407,14 @@
 - name: libindic Soundex
   description: Soundex Phonetic Code Algorithm Demo for Indian Languages.
   url: "https://libindic.org/Soundex"
-  languages: [Malayalam, Tamil, Kannada, Hindi, Assamese, Bengali, Burmese, Gujarati, Kashmiri, Manipuri, Maithili, Marathi, Mon, Nepali, Odiya, Punjabi, Sanskrit, Santali, Sinhala, Urdu]
+  languages: [Malayalam, Tamil, Kannada, Hindi, Assamese, Bengali, Burmese, Gujarati, Kashmiri, Manipuri, Maithili, Marathi, Mon, Nepali, Odia, Punjabi, Sanskrit, Santali, Sinhala, Urdu]
   categories: [Tools]
   tags: [FOSS]
 
 - name: libindic ApproxSearch
   description:  Fuzzy string search application. This application illustrates the combined use of Edit distance and Indic Soundex algorithm.
   url: "https://libindic.org/ApproxSearch"
-  languages: [Malayalam, Tamil, Kannada, Hindi, Assamese, Bengali, Burmese, Gujarati, Kashmiri, Manipuri, Maithili, Marathi, Mon, Nepali, Odiya, Punjabi, Sanskrit, Santali, Sinhala, Urdu]
+  languages: [Malayalam, Tamil, Kannada, Hindi, Assamese, Bengali, Burmese, Gujarati, Kashmiri, Manipuri, Maithili, Marathi, Mon, Nepali, Odia, Punjabi, Sanskrit, Santali, Sinhala, Urdu]
   categories: [Tools]
   tags: [FOSS]
 
@@ -331,7 +428,7 @@
 - name: libindic Sort
   description: Unicode Collation Algorithm(UCA) based sorting for all languages defined in Unicode.
   url: "https://libindic.org/UCA%20Sort"
-  languages: [Malayalam, Tamil, Kannada, Hindi, Assamese, Bengali, Burmese, Gujarati, Kashmiri, Manipuri, Maithili, Marathi, Mon, Nepali, Odiya, Punjabi, Sanskrit, Santali, Sinhala, Urdu]
+  languages: [Malayalam, Tamil, Kannada, Hindi, Assamese, Bengali, Burmese, Gujarati, Kashmiri, Manipuri, Maithili, Marathi, Mon, Nepali, Odia, Punjabi, Sanskrit, Santali, Sinhala, Urdu]
   categories: [Tools]
   tags: [FOSS]
 
@@ -345,14 +442,14 @@
 - name: libindic Hyphenate
   description: Hyphenation is the process inserting hyphens in between the syllables of a word so that when the text is justified, maximum space is utilized.
   url: "https://libindic.org/Hyphenate"
-  languages: [Hindi, Malayalam, Tamil, Telugu, Kannada, Odiya, Bengali, Gujarati, Panjabi, Marathi, Sanskrit, Assamese, Kashmiri]
+  languages: [Hindi, Malayalam, Tamil, Telugu, Kannada, Odia, Bengali, Gujarati, Panjabi, Marathi, Sanskrit, Assamese, Kashmiri]
   categories: [Tools]
   tags: [FOSS]
 
 - name: dhvani TTS
   description: text to speech system designed for Indian Languages. The aim of this project is to ensure that literacy and knowledge of English are not essential for using a Computer. We hope that it will reduce the digital divide and will be helpful for the visually challenges users as screenreader in their mother tongue.
   url: "http://dhvani.sourceforge.net"
-  languages: [Bengali, Gujarati, Hindi, Kannada, Malayalam, Marathi, Odiya, Panjabi, Tamil, Telugu]
+  languages: [Bengali, Gujarati, Hindi, Kannada, Malayalam, Marathi, Odia, Panjabi, Tamil, Telugu]
   categories: [Tools]
   tags: [FOSS]
 
@@ -398,6 +495,13 @@
   categories: [Code]
   tags: [FOSS]
 
+- name: SMC mlphone
+  description: Malayalam phonetic analyser using fst.
+  url: "mlphon.smc.org.in"
+  languages: [Malayalam]
+  categories: [Code]
+  tags: [FOSS]
+
 - name: KNphone
   description: KNPhone is an algorithm for phonetically encoding Kannada words into English keys words by their pronounciation, like Metaphone for English.
   url: "https://github.com/knadh/knphone"
@@ -419,9 +523,191 @@
   categories: [Fonts]
   tags: [FOSS]
 
-- name: SMC Malayalam Fonts
-  description: A dozen open source fonts from Swathanthra Malayalam Computing.
-  url: "https://smc.org.in/fonts"
+- name: Anjali Old Lipi
+  description: Malayalam old lipi font by Swathanthra Malayalam Computing.
+  url: "https://smc.org.in/fonts/anjalioldlipi"
+  languages: [Malayalam]
+  categories: [Fonts]
+  tags: [FOSS]
+
+- name: Chilanka
+  description: Ornamental Malayalam font from Swathanthra Malayalam Computing.
+  url: "https://smc.org.in/fonts/chilanka"
+  languages: [Malayalam]
+  categories: [Fonts]
+  tags: [FOSS]
+
+- name: Dyuthi
+  description: Malayalam font by Swathanthra Malayalam Computing.
+  url: "https://smc.org.in/fonts/dyuthi"
+  languages: [Malayalam]
+  categories: [Fonts]
+  tags: [FOSS]
+
+- name: Gayathri
+  description: Comprehensive ligature font from Swathanthra Malayalam Computing.
+  url: "https://smc.org.in/fonts/gayathri"
+  languages: [Malayalam, English]
+  categories: [Fonts]
+  tags: [FOSS]
+
+- name: Karumbi
+  description: Ornamental Malayalam font by SMC.
+  url: "https://smc.org.in/fonts/karumbi"
+  languages: [Malayalam]
+  categories: [Fonts]
+  tags: [FOSS]
+
+- name: Keraleeyam
+  description: Malayalam old lipi font from SMC.
+  url: "https://smc.org.in/fonts/keraleeyam"
+  languages: [Malayalam]
+  categories: [Fonts]
+  tags: [FOSS]
+
+- name: Manjari
+  description: Comprehensive ligature Malayalam font by Swathanthra Malayalam Computing.
+  url: "https://smc.org.in/fonts/manjari"
+  languages: [Malayalam, English]
+  categories: [Fonts]
+  tags: [FOSS]
+
+- name: Meera
+  description: Malayalam old lipi font from SMC.
+  url: "https://smc.org.in/fonts/meera"
+  languages: [Malayalam]
+  categories: [Fonts]
+  tags: [FOSS]
+
+- name: Rachana
+  description: Malayalam old lipi font from SMC.
+  url: "https://smc.org.in/fonts/rachana"
+  languages: [Malayalam]
+  categories: [Fonts]
+  tags: [FOSS]
+
+- name: Raghu Malayalam
+  description: Malayalam old lipi font from SMC.
+  url: "https://smc.org.in/fonts/raghumalayalamsans"
+  languages: [Malayalam]
+  categories: [Fonts]
+  tags: [FOSS]
+
+- name: Suruma
+  description: Malayalam old lipi font from SMC.
+  url: "https://smc.org.in/fonts/suruma"
+  languages: [Malayalam]
+  categories: [Fonts]
+  tags: [FOSS]
+
+- name: Uroob
+  description: Malayalam old lipi font from SMC.
+  url: "https://smc.org.in/fonts/uroob"
+  languages: [Malayalam]
+  categories: [Fonts]
+  tags: [FOSS]
+
+- name: Meera Inimai
+  description: Tamil font from SMC.
+  url: "https://gitlab.com/smc/fonts/meera-tamil"
+  languages: [Tamil]
+  categories: [Fonts]
+  tags: [FOSS]
+
+- name: Noto Sans
+  description: Indic family fonts by Google.
+  url: "https://www.google.com/get/noto/"
+  languages: [Malayalam, Tamil, Kannada, Hindi, Telugu, Gujarati, Marathi, Punjabi, Bengali, Odia]
+  categories: [Fonts]
+  tags: [FOSS]
+
+- name: Baloo Chettan 2
+  description: Comprehensive ligature Malayalam font from EkType.
+  url: "https://ektype.in/font-family/baloo/baloo-chettan2.html"
+  languages: [Malayalam, English]
+  categories: [Fonts]
+  tags: [FOSS]
+
+- name: Baloo Bhaina 2
+  description: Comprehensive ligature Odia font from EkType.
+  url: "https://ektype.in/font-family/baloo/baloo-bhaina2.html"
+  languages: [Odia, English]
+  categories: [Fonts]
+  tags: [FOSS]
+
+- name: Baloo Bhai 2
+  description: Comprehensive ligature Gujarati font from EkType.
+  url: "https://ektype.in/font-family/baloo/baloo-bhai2.html"
+  languages: [Gujarati, English]
+  categories: [Fonts]
+  tags: [FOSS]
+
+- name: Baloo Da 2
+  description: Comprehensive ligature Bengali font from EkType.
+  url: "https://ektype.in/font-family/baloo/baloo-da2.html"
+  languages: [Bengali, English]
+  categories: [Fonts]
+  tags: [FOSS]
+
+- name: Baloo Paaji 2
+  description: Comprehensive ligature Punjabi font from EkType.
+  url: "https://ektype.in/font-family/baloo/baloo-paaji2.html"
+  languages: [Punjabi, English]
+  categories: [Fonts]
+  tags: [FOSS]
+
+- name: Baloo Tamma 2
+  description: Comprehensive ligature Kannada font from EkType.
+  url: "https://ektype.in/font-family/baloo/baloo-tamma2.html"
+  languages: [Kannada, English]
+  categories: [Fonts]
+  tags: [FOSS]
+
+- name: Baloo Tammadu 2
+  description: Comprehensive ligature Telugu font from EkType.
+  url: "https://ektype.in/font-family/baloo/baloo-tammadu2.html"
+  languages: [Telugu, English]
+  categories: [Fonts]
+  tags: [FOSS]
+
+- name: Baloo Thambi 2
+  description: Comprehensive ligature Tamil font from EkType.
+  url: "https://ektype.in/font-family/baloo/baloo-thambi2.html"
+  languages: [Tamil, English]
+  categories: [Fonts]
+  tags: [FOSS]
+
+- name: Baloo 2
+  description: Devanagiri font from EkType.
+  url: "https://ektype.in/font-family/baloo/baloo-chettan2.html"
+  languages: [Hindi]
+  categories: [Fonts]
+  tags: [FOSS]
+
+- name: Sundar
+  description: Malayalam font from RIT.
+  url: "https://gitlab.com/rit-fonts/Sundar"
+  languages: [Malayalam]
+  categories: [Fonts]
+  tags: [FOSS]
+
+- name: TN Joy
+  description: Malayalam font from RIT.
+  url: "https://gitlab.com/rit-fonts/tnjoy"
+  languages: [Malayalam]
+  categories: [Fonts]
+  tags: [FOSS]
+
+- name: Ezhuthu
+  description: Ornamental Malayalam font from RIT.
+  url: "https://gitlab.com/rit-fonts/ezhuthu"
+  languages: [Malayalam]
+  categories: [Fonts]
+  tags: [FOSS]
+
+- name: RIT-Rachana
+  description: Malayalam old lipi font by RIT.
+  url: "https://gitlab.com/rit-fonts/RIT-Rachana"
   languages: [Malayalam]
   categories: [Fonts]
   tags: [FOSS]
@@ -457,6 +743,13 @@
 - name: Malayalam Text Corpus
   description: A collection of assorted Malayalam text with 800,000+ lines and 9.8+ million words curated by Swathanthra Malayalam Computing.
   url: "https://gitlab.com/smc/corpus"
+  languages: [Malayalam]
+  categories: [Data]
+  tags: [FOSS]
+
+- name: Grandham
+  description: Grandham is a project intended to make available reliable bibliographic information on all Malayalam books published in Kerala and elsewhere.
+  url: "https://grandham.in/"
   languages: [Malayalam]
   categories: [Data]
   tags: [FOSS]
@@ -563,12 +856,5 @@
   description:  Optical Character Recognition of handwritten documents in Kannada
   url: "https://github.com/SubhrajyotiSen/KannadaHandwritingRecognition"
   languages: [Kannada]
-  categories: [Code]
-  tags: [FOSS]
-
-- name:  Anuvaad
-  description:  State of the art translation for Indic languages
-  url: "https://github.com/notAI-tech/Anuvaad"
-  languages: [Hindi, Kannada, Malayalam, Marathi, Tamil, Telugu]
   categories: [Code]
   tags: [FOSS]
