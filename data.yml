@@ -163,7 +163,7 @@
 - name: Odia Dictionary
   description: Online Odia ↔ English dictionary. 
   url: http://dictionary.odialanguage.com
-  languages: [English, Odiya]
+  languages: [English, Odia]
   categories: [Dictionaries]
   tags: [Proprietary]
 
@@ -275,7 +275,7 @@
 - name: libindic Transliterator
   description: Transliterate text from any Indian language to any other Indian language.
   url: "https://libindic.org/Transliteration"
-  languages: [Malayalam, Kannada, Bengali, Tamil, Hindi, Odiya, Telugu, Gujarati, Punjabi]
+  languages: [Malayalam, Kannada, Bengali, Tamil, Hindi, Odia, Telugu, Gujarati, Punjabi]
   categories: [Tools]
   tags: [FOSS]
 
@@ -296,7 +296,7 @@
 - name: libindic Unicode Character Details
   description: Unicode details for given string.
   url: "https://libindic.org/Chardetails"
-  languages: [Malayalam, Tamil, Kannada, Hindi, Assamese, Bengali, Burmese, Gujarati, Kashmiri, Manipuri, Maithili, Marathi, Mon, Nepali, Odiya, Punjabi, Sanskrit, Santali, Sinhala, Urdu]
+  languages: [Malayalam, Tamil, Kannada, Hindi, Assamese, Bengali, Burmese, Gujarati, Kashmiri, Manipuri, Maithili, Marathi, Mon, Nepali, Odia, Punjabi, Sanskrit, Santali, Sinhala, Urdu]
   categories: [Tools]
   tags: [FOSS]
 
@@ -310,14 +310,14 @@
 - name: libindic Soundex
   description: Soundex Phonetic Code Algorithm Demo for Indian Languages.
   url: "https://libindic.org/Soundex"
-  languages: [Malayalam, Tamil, Kannada, Hindi, Assamese, Bengali, Burmese, Gujarati, Kashmiri, Manipuri, Maithili, Marathi, Mon, Nepali, Odiya, Punjabi, Sanskrit, Santali, Sinhala, Urdu]
+  languages: [Malayalam, Tamil, Kannada, Hindi, Assamese, Bengali, Burmese, Gujarati, Kashmiri, Manipuri, Maithili, Marathi, Mon, Nepali, Odia, Punjabi, Sanskrit, Santali, Sinhala, Urdu]
   categories: [Tools]
   tags: [FOSS]
 
 - name: libindic ApproxSearch
   description:  Fuzzy string search application. This application illustrates the combined use of Edit distance and Indic Soundex algorithm.
   url: "https://libindic.org/ApproxSearch"
-  languages: [Malayalam, Tamil, Kannada, Hindi, Assamese, Bengali, Burmese, Gujarati, Kashmiri, Manipuri, Maithili, Marathi, Mon, Nepali, Odiya, Punjabi, Sanskrit, Santali, Sinhala, Urdu]
+  languages: [Malayalam, Tamil, Kannada, Hindi, Assamese, Bengali, Burmese, Gujarati, Kashmiri, Manipuri, Maithili, Marathi, Mon, Nepali, Odia, Punjabi, Sanskrit, Santali, Sinhala, Urdu]
   categories: [Tools]
   tags: [FOSS]
 
@@ -331,7 +331,7 @@
 - name: libindic Sort
   description: Unicode Collation Algorithm(UCA) based sorting for all languages defined in Unicode.
   url: "https://libindic.org/UCA%20Sort"
-  languages: [Malayalam, Tamil, Kannada, Hindi, Assamese, Bengali, Burmese, Gujarati, Kashmiri, Manipuri, Maithili, Marathi, Mon, Nepali, Odiya, Punjabi, Sanskrit, Santali, Sinhala, Urdu]
+  languages: [Malayalam, Tamil, Kannada, Hindi, Assamese, Bengali, Burmese, Gujarati, Kashmiri, Manipuri, Maithili, Marathi, Mon, Nepali, Odia, Punjabi, Sanskrit, Santali, Sinhala, Urdu]
   categories: [Tools]
   tags: [FOSS]
 
@@ -345,14 +345,14 @@
 - name: libindic Hyphenate
   description: Hyphenation is the process inserting hyphens in between the syllables of a word so that when the text is justified, maximum space is utilized.
   url: "https://libindic.org/Hyphenate"
-  languages: [Hindi, Malayalam, Tamil, Telugu, Kannada, Odiya, Bengali, Gujarati, Panjabi, Marathi, Sanskrit, Assamese, Kashmiri]
+  languages: [Hindi, Malayalam, Tamil, Telugu, Kannada, Odia, Bengali, Gujarati, Panjabi, Marathi, Sanskrit, Assamese, Kashmiri]
   categories: [Tools]
   tags: [FOSS]
 
 - name: dhvani TTS
   description: text to speech system designed for Indian Languages. The aim of this project is to ensure that literacy and knowledge of English are not essential for using a Computer. We hope that it will reduce the digital divide and will be helpful for the visually challenges users as screenreader in their mother tongue.
   url: "http://dhvani.sourceforge.net"
-  languages: [Bengali, Gujarati, Hindi, Kannada, Malayalam, Marathi, Odiya, Panjabi, Tamil, Telugu]
+  languages: [Bengali, Gujarati, Hindi, Kannada, Malayalam, Marathi, Odia, Panjabi, Tamil, Telugu]
   categories: [Tools]
   tags: [FOSS]
 
