@@ -223,6 +223,103 @@
   categories: [Tools]
   tags: [Proprietary]
 
+- name: SMC Handwriting
+  description: Handwriting recognition tool for Malayalam and Tamil
+  url: "https://smc.gitlab.io/handwriting"
+  languages: [Malayalam, Tamil]
+  categories: [Tools]
+  tags: [FOSS]
+
+- name: Malayalam Mash
+  description: A simple application to observe and learn how to write Malayalam letters.
+  url: "https://learn.smc.org.in/"
+  languages: [Malayalam]
+  categories: [Tools]
+  tags: [FOSS]
+
+- name: Malayalam OCR
+  description: Malayalam character recognition tool using tesseract.
+  url: "https://ocr.smc.org.in"
+  languages: [Malayalam]
+  categories: [Tools]
+  tags: [FOSS]
+
+- name: mlpredict
+  description: Malayalam word predictor using Marckov chain.
+  url: "https://predict.smc.org.in/"
+  languages: [Malayalam]
+  categories: [Tools]
+  tags: [FOSS]
+
+- name: swanalekha
+  description: A simple malayalam input method.
+  url: "https://swanalekha.smc.org.in/"
+  languages: [Malayalam]
+  categories: [Tools]
+  tags: [FOSS]
+
+- name: Speech Corpus web
+  description: A simple web application to collect sound samples.
+  url: "https://msc.smc.org.in/"
+  languages: [Malayalam]
+  categories: [Tools]
+  tags: [FOSS]
+
+- name: iBus Braille
+  description: Braille input method for Malayalm.
+  url: "https://gitlab.com/smc/ibus-braille"
+  languages: [Malayalam]
+  categories: [Tools]
+  tags: [FOSS]
+
+- name: Hyphenation
+  description: Hyphenation patterns for Indian languages.
+  url: "https://gitlab.com/smc/hyphenation"
+  languages: [Malayalam, Bengali, Gujarati, Punjabi, Assamese, Marathi, Tamil, Telugu, Kannada]
+  categories: [Tools]
+  tags: [FOSS]
+
+- name: Magisk Malayalam Fonts
+  description: Magiks Module to change the default Malayalam font in Android.
+  url: "https://gitlab.com/smc/magisk-malayalam-fonts"
+  languages: [Malayalam]
+  categories: [Tools]
+  tags: [FOSS]
+
+- name: Malayalam Fonts WebExtension
+  description: A browser extention for Malayalam inputs.
+  url: "https://gitlab.com/smc/Malayalam-Fonts-WebExtension"
+  languages: [Malayalam]
+  categories: [Tools]
+  tags: [FOSS]
+
+- name: kletters
+  description: Tool for learn the alphabet and then to read some syllables in different languages.
+  url: "https://edu.kde.org/klettres/"
+  languages: [Malayalam, Telugu, Kannada, Hindi]
+  categories: [Tools]
+  tags: [FOSS]
+
+- name: Chathans
+  description: Chathans is a GTK frontend to Payyans, a Malayalam ASCII to Unicode converter.
+  url: "https://gitlab.com/smc/chathans"
+  languages: [Malayalam]
+  categories: [Tools]
+  tags: [FOSS]
+
+- name: Padakosham
+  description: A detailed Malayalam - Malayalam dictionary
+  url: "https://gitlab.com/smc/padakosham"
+  languages: [Malayalam]
+  categories: [Tools]
+  tags: [FOSS]
+
+- name: Silpa - Swathanthra Indian Language Processing Applications
+  description: A web platform to host the free software language processing applications easily.
+  url: "https://savannah.nongnu.org/projects/silpa/"
+  languages: [Malayalam]
+  categories: [Tools]
+  tags: [FOSS]
 - name: iNLTK
   description: NLP toolkit for multiple Indian languages.
   url: "https://inltk.readthedocs.io/en/latest"
@@ -646,6 +743,13 @@
 - name: Malayalam Text Corpus
   description: A collection of assorted Malayalam text with 800,000+ lines and 9.8+ million words curated by Swathanthra Malayalam Computing.
   url: "https://gitlab.com/smc/corpus"
+  languages: [Malayalam]
+  categories: [Data]
+  tags: [FOSS]
+
+- name: Grandham
+  description: Grandham is a project intended to make available reliable bibliographic information on all Malayalam books published in Kerala and elsewhere.
+  url: "https://grandham.in/"
   languages: [Malayalam]
   categories: [Data]
   tags: [FOSS]
