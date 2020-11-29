@@ -426,9 +426,86 @@
   categories: [Fonts]
   tags: [FOSS]
 
-- name: SMC Malayalam Fonts
-  description: A dozen open source fonts from Swathanthra Malayalam Computing.
-  url: "https://smc.org.in/fonts"
+- name: Anjali Old Lipi
+  description: Malayalam old lipi font by Swathanthra Malayalam Computing.
+  url: "https://smc.org.in/fonts/anjalioldlipi"
+  languages: [Malayalam]
+  categories: [Fonts]
+  tags: [FOSS]
+
+- name: 
+  description: Ornamental Malayalam font from Swathanthra Malayalam Computing.
+  url: "https://smc.org.in/fonts/chilanka"
+  languages: [Malayalam]
+  categories: [Fonts]
+  tags: [FOSS]
+
+- name: Dyuthi
+  description: Malayalam font by Swathanthra Malayalam Computing.
+  url: "https://smc.org.in/fonts/dyuthi"
+  languages: [Malayalam]
+  categories: [Fonts]
+  tags: [FOSS]
+
+- name: Gayathri
+  description: Comprehensive ligature font from Swathanthra Malayalam Computing.
+  url: "https://smc.org.in/fonts/gayathri"
+  languages: [Malayalam, English]
+  categories: [Fonts]
+  tags: [FOSS]
+
+- name: Karumbi
+  description: Ornamental Malayalam font by SMC.
+  url: "https://smc.org.in/fonts/karumbi"
+  languages: [Malayalam]
+  categories: [Fonts]
+  tags: [FOSS]
+
+- name: Keraleeyam
+  description: Malayalam old lipi font from SMC.
+  url: "https://smc.org.in/fonts/keraleeyam"
+  languages: [Malayalam]
+  categories: [Fonts]
+  tags: [FOSS]
+
+- name: Manjari
+  description: Comprehensive ligature Malayalam font by Swathanthra Malayalam Computing.
+  url: "https://smc.org.in/fonts/manjari"
+  languages: [Malayalam, English]
+  categories: [Fonts]
+  tags: [FOSS]
+
+- name: Meera
+  description: Malayalam old lipi font from SMC.
+  url: "https://smc.org.in/fonts/meera"
+  languages: [Malayalam]
+  categories: [Fonts]
+  tags: [FOSS]
+
+- name: Rachana
+  description: Malayalam old lipi font from SMC.
+  url: "https://smc.org.in/fonts/rachana"
+  languages: [Malayalam]
+  categories: [Fonts]
+  tags: [FOSS]
+
+- name: Raghu Malayalam
+  description: Malayalam old lipi font from SMC.
+  url: "https://smc.org.in/fonts/raghumalayalamsans"
+  languages: [Malayalam]
+  categories: [Fonts]
+  tags: [FOSS]
+
+- name: Suruma
+  description: Malayalam old lipi font from SMC.
+  url: "https://smc.org.in/fonts/suruma"
+  languages: [Malayalam]
+  categories: [Fonts]
+  tags: [FOSS]
+
+- name: Uroob
+  description: Malayalam old lipi font from SMC.
+  url: "https://smc.org.in/fonts/uroob"
   languages: [Malayalam]
   categories: [Fonts]
   tags: [FOSS]
