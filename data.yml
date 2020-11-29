@@ -581,9 +581,37 @@
   tags: [FOSS]
 
 - name: Baloo 2
-  description: Comprehensive ligature Devanagiri font from EkType.
+  description: Devanagiri font from EkType.
   url: "https://ektype.in/font-family/baloo/baloo-chettan2.html"
-  languages: [Hindi, English]
+  languages: [Hindi]
+  categories: [Fonts]
+  tags: [FOSS]
+
+- name: Sundar
+  description: Malayalam font from RIT.
+  url: "https://gitlab.com/rit-fonts/Sundar"
+  languages: [Malayalam]
+  categories: [Fonts]
+  tags: [FOSS]
+
+- name: TN Joy
+  description: Malayalam font from RIT.
+  url: "https://gitlab.com/rit-fonts/tnjoy"
+  languages: [Malayalam]
+  categories: [Fonts]
+  tags: [FOSS]
+
+- name: Ezhuthu
+  description: Ornamental Malayalam font from RIT.
+  url: "https://gitlab.com/rit-fonts/ezhuthu"
+  languages: [Malayalam]
+  categories: [Fonts]
+  tags: [FOSS]
+
+- name: RIT-Rachana
+  description: Malayalam old lipi font by RIT.
+  url: "https://gitlab.com/rit-fonts/RIT-Rachana"
+  languages: [Malayalam]
   categories: [Fonts]
   tags: [FOSS]
 
