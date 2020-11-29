@@ -510,6 +510,12 @@
   categories: [Fonts]
   tags: [FOSS]
 
+- name: Meera Inimai
+  description: Tamil font from SMC.
+  url: "https://gitlab.com/smc/fonts/meera-tamil"
+  languages: [Tamil]
+  categories: [Fonts]
+  tags: [FOSS]
 - name: Google Fonts
   description: Fonts for multiple Indian languages.
   url: "https://fonts.google.com/?subset=malayalam"
