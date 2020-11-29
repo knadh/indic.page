@@ -516,6 +516,14 @@
   languages: [Tamil]
   categories: [Fonts]
   tags: [FOSS]
+
+- name: Noto Sans
+  description: Indic family fonts by Google.
+  url: "https://www.google.com/get/noto/"
+  languages: [Malayalam, Tamil, Kannada, Hindi, Telugu, Gujarati, Marathi, Punjabi]
+  categories: [Fonts]
+  tags: [FOSS]
+
 - name: Google Fonts
   description: Fonts for multiple Indian languages.
   url: "https://fonts.google.com/?subset=malayalam"
