@@ -398,6 +398,13 @@
   categories: [Code]
   tags: [FOSS]
 
+- name: SMC mlphone
+  description: Malayalam phonetic analyser using fst.
+  url: "mlphon.smc.org.in"
+  languages: [Malayalam]
+  categories: [Code]
+  tags: [FOSS]
+
 - name: KNphone
   description: KNPhone is an algorithm for phonetically encoding Kannada words into English keys words by their pronounciation, like Metaphone for English.
   url: "https://github.com/knadh/knphone"
@@ -563,12 +570,5 @@
   description:  Optical Character Recognition of handwritten documents in Kannada
   url: "https://github.com/SubhrajyotiSen/KannadaHandwritingRecognition"
   languages: [Kannada]
-  categories: [Code]
-  tags: [FOSS]
-
-- name:  Anuvaad
-  description:  State of the art translation for Indic languages
-  url: "https://github.com/notAI-tech/Anuvaad"
-  languages: [Hindi, Kannada, Malayalam, Marathi, Tamil, Telugu]
   categories: [Code]
   tags: [FOSS]
