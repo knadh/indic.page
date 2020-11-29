@@ -520,7 +520,70 @@
 - name: Noto Sans
   description: Indic family fonts by Google.
   url: "https://www.google.com/get/noto/"
-  languages: [Malayalam, Tamil, Kannada, Hindi, Telugu, Gujarati, Marathi, Punjabi]
+  languages: [Malayalam, Tamil, Kannada, Hindi, Telugu, Gujarati, Marathi, Punjabi, Bengali, Odia]
+  categories: [Fonts]
+  tags: [FOSS]
+
+- name: Baloo Chettan 2
+  description: Comprehensive ligature Malayalam font from EkType.
+  url: "https://ektype.in/font-family/baloo/baloo-chettan2.html"
+  languages: [Malayalam, English]
+  categories: [Fonts]
+  tags: [FOSS]
+
+- name: Baloo Bhaina 2
+  description: Comprehensive ligature Odia font from EkType.
+  url: "https://ektype.in/font-family/baloo/baloo-bhaina2.html"
+  languages: [Odia, English]
+  categories: [Fonts]
+  tags: [FOSS]
+
+- name: Baloo Bhai 2
+  description: Comprehensive ligature Gujarati font from EkType.
+  url: "https://ektype.in/font-family/baloo/baloo-bhai2.html"
+  languages: [Gujarati, English]
+  categories: [Fonts]
+  tags: [FOSS]
+
+- name: Baloo Da 2
+  description: Comprehensive ligature Bengali font from EkType.
+  url: "https://ektype.in/font-family/baloo/baloo-da2.html"
+  languages: [Bengali, English]
+  categories: [Fonts]
+  tags: [FOSS]
+
+- name: Baloo Paaji 2
+  description: Comprehensive ligature Punjabi font from EkType.
+  url: "https://ektype.in/font-family/baloo/baloo-paaji2.html"
+  languages: [Punjabi, English]
+  categories: [Fonts]
+  tags: [FOSS]
+
+- name: Baloo Tamma 2
+  description: Comprehensive ligature Kannada font from EkType.
+  url: "https://ektype.in/font-family/baloo/baloo-tamma2.html"
+  languages: [Kannada, English]
+  categories: [Fonts]
+  tags: [FOSS]
+
+- name: Baloo Tammadu 2
+  description: Comprehensive ligature Telugu font from EkType.
+  url: "https://ektype.in/font-family/baloo/baloo-tammadu2.html"
+  languages: [Telugu, English]
+  categories: [Fonts]
+  tags: [FOSS]
+
+- name: Baloo Thambi 2
+  description: Comprehensive ligature Tamil font from EkType.
+  url: "https://ektype.in/font-family/baloo/baloo-thambi2.html"
+  languages: [Tamil, English]
+  categories: [Fonts]
+  tags: [FOSS]
+
+- name: Baloo 2
+  description: Comprehensive ligature Devanagiri font from EkType.
+  url: "https://ektype.in/font-family/baloo/baloo-chettan2.html"
+  languages: [Hindi, English]
   categories: [Fonts]
   tags: [FOSS]
 
