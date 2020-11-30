@@ -122,8 +122,8 @@
   description: Online Tamil ↔ English dictionary.
   url: https://karky.in/karefo/labs/chol/chol.html
   languages: [English, Tamil]
-  categories: [Dictionaries, Mobile]
-  tags: [Proprietary]
+  categories: [Dictionaries]
+  tags: [Proprietary, Mobile]
 
 - name: Piripori
   description: Online Tamil word Analyser
