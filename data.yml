@@ -247,7 +247,7 @@
 - name: LIOS 3
   description: Lios is a free and open source software for converting print in to text using either scanner or a camera, It can also produce text out of scanned images from other sources such as Pdf, Image, Folder containing Images or screenshot.
   url: "https://gitlab.com/Nalin-x-Linux/lios-3"
-  langauges: [Malayalam, Hindi, Tamil]
+  languages: [Malayalam, Hindi, Tamil]
   categories: [Tools]
   tags: [FOSS]
 
