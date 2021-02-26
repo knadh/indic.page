@@ -78,8 +78,8 @@ def render_page(category, data, tpl, file):
 		list_tags=list_tags,
 		list=items)
 
-	with open(file, "w") as f:
-		f.write(html.encode("utf8"))
+	with open(file, "w", encoding='utf-8') as f:
+		f.write(html)
 
 
 def render_all(data, tpl, out_dir):
