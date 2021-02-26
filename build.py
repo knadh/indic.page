@@ -78,7 +78,7 @@ def render_page(category, data, tpl, file):
 		list_tags=list_tags,
 		list=items)
 
-	with open(file, "w", encoding='utf-8') as f:
+	with open(file, "w", encoding="utf-8") as f:
 		f.write(html)
 
 
