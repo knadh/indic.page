@@ -76,6 +76,14 @@
   categories: [Dictionaries]
   tags: [FOSS]
 
+- name: Shabdatharavali
+  description: Shabdatharavali is the most authoritative Malayalam dictionary of the Malayalam language up to the end of the twentieth century. (Shabdataravali by Srikanteshwaram Padmanabha Pillai is considered to be the most authoritative of the Malayalam dictionaries.) This book of over 2000 pages is considered to be the last word in the meaning of Malayalam words. The first volume of the book, published in 1917, was completed in twenty years.
+  url: "https://dict.sayahna.org/stv"
+  languages: [Malayalam]
+  categories: [Dictionaries]
+  tags: [FOSS]
+
+
 - name: Bhagwadgomandal
   description: Authoritative Gujarati dictionary created by Maharaj Bhagvadsinhji, ruler of erstwhile Gondal. 280,000 entries and 822,000 definitions.
   url: http://www.bhagwadgomandal.com
@@ -737,6 +745,13 @@
   description: Open data crowd sourced English - Malayalam dictionary corpus with 60,000 entries and 125,000 definitions.
   url: "https://olam.in/open/enml"
   languages: [Malayalam, English]
+  categories: [Data]
+  tags: [FOSS, Dictionary]
+
+- name: Shabdatharavali
+  description: Shabdatharavali 1917 edition.
+  url: "https://stv.sayahna.org/links.html"
+  languages: [Malayalam]
   categories: [Data]
   tags: [FOSS, Dictionary]
 
