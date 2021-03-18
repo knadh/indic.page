@@ -749,8 +749,8 @@
   tags: [FOSS, Dictionary]
 
 - name: Shabdatharavali
-  description: Shabdatharavali 1917 edition in XDXF format.
-  url: "https://stv.sayahna.org/stv-xml-files-1.0.tar.gz"
+  description: Shabdatharavali 1917 edition.
+  url: "https://stv.sayahna.org/links.html"
   languages: [Malayalam]
   categories: [Data]
   tags: [FOSS, Dictionary]
