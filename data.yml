@@ -233,7 +233,7 @@
 
 - name: SMC Handwriting
   description: Handwriting recognition tool for Malayalam and Tamil
-  url: "https://smc.gitlab.io/handwriting"
+  url: "https://handwriting.smc.org.in/"
   languages: [Malayalam, Tamil]
   categories: [Tools]
   tags: [FOSS]
