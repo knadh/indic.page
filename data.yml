@@ -182,9 +182,9 @@
   categories: [Dictionaries]
   tags: [Proprietary]
 
-- name: Shabdakosh
+- name: Shabdkosh
   description: Online dictionary for multiple Indian languages.
-  url: https://spokensanskrit.org
+  url: https://shabdkosh.com/
   languages: [Bengali, Gujarati, Hindi, Kannada, Konkani, Malayalam, Marathi, Punjabi, Tamil, Telugu]
   categories: [Dictionaries]
   tags: [Proprietary]
