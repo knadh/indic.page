@@ -531,6 +531,34 @@
   categories: [Code]
   tags: [FOSS]
 
+- name: OpenOdia
+  description: OpenOdia is a Python pypi package with various toolkits for Odia language.
+  url: "https://github.com/soumendrak/openodia"
+  languages: [Odia]
+  categories: [Code]
+  tags: [FOSS]
+
+- name: Odia-Odia structured dictionary dataset
+  description: This dataset is a dictionary containing 1,21,658 Odia words and their meaning.
+  url: "https://www.kaggle.com/datasets/soumendrak/odia-structured-dictionary"
+  languages: [Odia, English]
+  categories: [Data]
+  tags: [FOSS, Dictionary]
+
+- name: English-Odia word pairs
+  description: This dataset contains 2,15,000+ English-Odia word/phrase pairs.
+  url: "https://www.kaggle.com/datasets/soumendrak/dictionary-english-odia-word-pairs"
+  languages: [Odia, English]
+  categories: [Data]
+  tags: [FOSS, Dictionary]
+
+- name: Odia monolingual corpus
+  description: This dataset contains 5,50,000+ Odia news articles.
+  url: "https://www.kaggle.com/datasets/soumendrak/odiamonolingualnewscorpus"
+  languages: [Odia]
+  categories: [Data]
+  tags: [FOSS]
+
 - name: ml2en
   description: An algorithm to transliterate Malayalam script to Roman / Latin characters (Manglish).
   url: "https://github.com/knadh/ml2en"
@@ -571,7 +599,7 @@
   url: "https://smc.org.in/fonts/gayathri"
   languages: [Malayalam, English]
   categories: [Fonts]
-  tags: [FOSS]
+  tags: [FOSS, Dictionary]
 
 - name: Karumbi
   description: Ornamental Malayalam font by SMC.
