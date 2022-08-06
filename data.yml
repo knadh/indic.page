@@ -524,6 +524,13 @@
   categories: [Code]
   tags: [FOSS]
 
+- name: ODphone
+  description: ODPhone is an algorithm for phonetically encoding Odia words into English keys words by their pronounciation, like Metaphone for English.
+  url: "https://github.com/soumendrak/odphone"
+  languages: [Odia]
+  categories: [Code]
+  tags: [FOSS]
+
 - name: ml2en
   description: An algorithm to transliterate Malayalam script to Roman / Latin characters (Manglish).
   url: "https://github.com/knadh/ml2en"
