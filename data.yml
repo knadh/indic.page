@@ -664,6 +664,13 @@
   categories: [Fonts]
   tags: [FOSS]
 
+- name: Nupuram
+  description: Nupuram - Malayalam superfamily variable typeface by Swathanthra Malayalam Computing.
+  url: "https://gitlab.com/smc/fonts/Nupuram"
+  languages: [Malayalam]
+  categories: [Fonts]
+  tags: [FOSS]
+
 - name: Noto Sans
   description: Indic family fonts by Google.
   url: "https://www.google.com/get/noto/"
@@ -729,10 +736,45 @@
 
 - name: Baloo 2
   description: Devanagiri font from EkType.
-  url: "https://ektype.in/font-family/baloo/baloo-chettan2.html"
+  url: "https://ektype.in/font-family/baloo/baloo2.html"
   languages: [Hindi]
   categories: [Fonts]
   tags: [FOSS]
+
+- name: Sama Malayalam
+  description: Comprehensive ligature Malayalam proprietary font from EkType.
+  url: "https://ektype.in/font-family/sama-malyalam.html"
+  languages: [Malayalam]
+  categories: [Fonts]
+  tags: [Proprietary]
+
+- name: Sama Latin
+  description: A proprietary Latin font from EkType.
+  url: "https://ektype.in/font-family/sama-malyalam.html"
+  languages: [ English]
+  categories: [Fonts]
+  tags: [Proprietary]
+
+- name: Sama Devanagiri
+  description: A proprietary Devanagiri font from EkType.
+  url: "https://ektype.in/sama-devanagari.html"
+  languages: [ Hindi]
+  categories: [Fonts]
+  tags: [Proprietary]
+
+- name: Sama Gujarati
+  description: A proprietary Gujarati font from EkType.
+  url: "https://ektype.in/font-family/sama/sama-gujarati.html"
+  languages: [ Gujarati]
+  categories: [Fonts]
+  tags: [Proprietary]
+
+- name: Sama Kannada
+  description: A proprietary Gujarati font from EkType.
+  url: "https://ektype.in/font-family/sama/sama-kannada.html"
+  languages: [ Kannada]
+  categories: [Fonts]
+  tags: [Proprietary]
 
 - name: Sundar
   description: Malayalam font from RIT.
@@ -758,6 +800,27 @@
 - name: RIT-Rachana
   description: Malayalam old lipi font by RIT.
   url: "https://gitlab.com/rit-fonts/RIT-Rachana"
+  languages: [Malayalam]
+  categories: [Fonts]
+  tags: [FOSS]
+
+- name: Panmana
+  description: Malayalam old lipi font by RIT.
+  url: "https://gitlab.com/rit-fonts/Panmana/"
+  languages: [Malayalam]
+  categories: [Fonts]
+  tags: [FOSS]
+
+- name: Meera New
+  description: Malayalam old lipi font by RIT.
+  url: "https://gitlab.com/rit-fonts/MeeraNew"
+  languages: [Malayalam]
+  categories: [Fonts]
+  tags: [FOSS]
+
+- name: Karuna
+  description: Malayalam old lipi font by RIT.
+  url: "https://gitlab.com/rit-fonts/karuna"
   languages: [Malayalam]
   categories: [Fonts]
   tags: [FOSS]
