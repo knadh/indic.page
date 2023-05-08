@@ -978,3 +978,63 @@
   languages: [Kannada]
   categories: [Code]
   tags: [FOSS]
+
+- name: Vaani - Spell checker
+  description:  Tamil Spellchecker with API access. Works with Text, Books, browsers.
+  url: "https://vaanieditor.com"
+  languages: [Tamil]
+  categories: [Tools]
+  tags: [Proprietary]
+
+- name: Oovan - Encoding Converter
+  description:  Tamil Encoding Converter supports more than 50 non unicode formats.
+  url: "http://apps.neechalkaran.com/oovan"
+  languages: [Tamil]
+  categories: [Tools]
+  tags: [Proprietary]
+  
+- name: Indic Script Converter
+  description:  Indic Language Script Converter supports more than 10 Scripts.
+  url: "https://apps.neechalkaran.com/indic_convertor"
+  languages: [Tamil, Devanagari, Malayalam, Telugu, Kannada, Gujarathi, Sinhala, Odiya, East Nagari, Punjabi]
+  categories: [Tools]
+  tags: [Proprietary]
+  
+- name: Pechchi - Translator
+  description:  Indic Languages to Tamil Translator.
+  url: "https://apps.neechalkaran.com/translate"
+  languages: [Tamil]
+  categories: [Tools]
+  tags: [Proprietary]
+
+- name: Paavaachi - Scansion Tool
+  description:  Scansion Tool for Tamil Songs. used to find Tamil rhythm, prosody search in Tamil songs.
+  url: "http://apps.neechalkaran.com/rhythm"
+  languages: [Tamil]
+  categories: [Tools]
+  tags: [Proprietary]
+  
+- name: Tamil Corpus
+  description:  Tamil corpus and Tamil dataset from various sources
+  url: "https://www.kaggle.com/neechalkaran/datasets"
+  languages: [Tamil]
+  categories: [Data]
+  tags: [FOSS]  
+
+ 
+- name: Tamil NLP codes
+  description:  Tamil NLP codes for Machine Learning.
+  url: "https://github.com/neechalkaran/colab-books"
+  languages: [Tamil]
+  categories: [Code]
+  tags: [FOSS]  
+
+- name: Tamil Dictionaries
+  description:  Multi dictionary search for Tamil
+  url: "http://vaani.neechalkaran.com/word"
+  languages: [Tamil]
+  categories: [Dictionaries]
+  tags: [FOSS]   
+  
+  
+  
