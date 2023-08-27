@@ -11,7 +11,7 @@ from jinja2 import Template
 
 def load_data(file):
 	with open(file, "r") as f:
-		out = yaml.load(f.read())
+		out = yaml.load(f.read(), Loader=yaml.FullLoader)
 		for item in out:
 			item["languages"].sort()
 			item["tags"].sort()
