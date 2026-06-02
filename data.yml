@@ -1127,5 +1127,16 @@
   categories: [Dictionaries]
   tags: [FOSS]   
   
+- name: Pada Sanchaya
+  description:  Multi dictionary search for Kannada
+  url: "https://pada.sanchaya.net"
+  languages: [Kannada]
+  categories: [Dictionaries]
+  tags: [FOSS]     
   
-  
+- name: Fonts Sanchaya
+  description:  Kannada Fonts Directory
+  url: "https://fonts.sanchaya.net"
+  languages: [Kannada]
+  categories: [Fonts]
+  tags: [FOSS] 
