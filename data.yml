@@ -1139,4 +1139,11 @@
   url: "https://fonts.sanchaya.net"
   languages: [Kannada]
   categories: [Fonts]
-  tags: [FOSS] 
+  tags: [FOSS]
+
+- name: Assamese English Digital Lexicon & API
+  description: Open-access bidirectional dictionary mapping 361,000+ vocabulary entries (100,000+ native Assamese words) with sub-300ms edge search, offline Android app, and developer REST API by Dubori.
+  url: "https://assamesedictionary.org"
+  languages: [Assamese]
+  categories: [Dictionaries, Tools]
+  tags: [FOSS]
