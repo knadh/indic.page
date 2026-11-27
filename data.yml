@@ -1147,3 +1147,10 @@
   languages: [Assamese]
   categories: [Dictionaries, Tools]
   tags: [FOSS]
+
+- name: Hindi–English probability minimal pairs
+  description: 32 parallel question pairs across eight bag compositions, with exact fractions for conditional and joint events, for inspecting Hindi mathematical question answering.
+  url: "https://huggingface.co/datasets/lmo0317/hindi-probability-minimal-pairs"
+  languages: [Hindi, English]
+  categories: [Data]
+  tags: [Proprietary]
